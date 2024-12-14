@@ -1,0 +1,3900 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_985aeef1096792734873c14607f20c74 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_985aeef1096792734873c14607f20c74" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_985aeef1096792734873c14607f20c74 = L.map(
+                "map_985aeef1096792734873c14607f20c74",
+                {
+                    center: [37.0902, -95.7129],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e943608f0793b3e46623ae200413dbc6 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_e943608f0793b3e46623ae200413dbc6.addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+            var circle_marker_78832736237f7a7a5fbb9af5a0fe2bde = L.circleMarker(
+                [32.8067, -86.7911],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.78, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_4180a138d6582fbaf1cc4abd1cb525d4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7c2c56bac80fbc8ae5e7753ef09d953a = $(`<div id="html_7c2c56bac80fbc8ae5e7753ef09d953a" style="width: 100.0%; height: 100.0%;">State: Alabama<br>Severity: 2<br>Accidents: 78</div>`)[0];
+                popup_4180a138d6582fbaf1cc4abd1cb525d4.setContent(html_7c2c56bac80fbc8ae5e7753ef09d953a);
+            
+        
+
+        circle_marker_78832736237f7a7a5fbb9af5a0fe2bde.bindPopup(popup_4180a138d6582fbaf1cc4abd1cb525d4)
+        ;
+
+        
+    
+    
+            circle_marker_78832736237f7a7a5fbb9af5a0fe2bde.bindTooltip(
+                `<div>
+                     Severity: 2<br>Accidents: 78
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b4c332e5b5aedb580b0c259905edb53e = L.circleMarker(
+                [32.8067, -86.7911],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.02, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_e6491fc6f5a52f55959efa8ba30761a7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_02e4d8bf5e3c277b9e858beb31b8fd6e = $(`<div id="html_02e4d8bf5e3c277b9e858beb31b8fd6e" style="width: 100.0%; height: 100.0%;">State: Alabama<br>Severity: 3<br>Accidents: 2</div>`)[0];
+                popup_e6491fc6f5a52f55959efa8ba30761a7.setContent(html_02e4d8bf5e3c277b9e858beb31b8fd6e);
+            
+        
+
+        circle_marker_b4c332e5b5aedb580b0c259905edb53e.bindPopup(popup_e6491fc6f5a52f55959efa8ba30761a7)
+        ;
+
+        
+    
+    
+            circle_marker_b4c332e5b5aedb580b0c259905edb53e.bindTooltip(
+                `<div>
+                     Severity: 3<br>Accidents: 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_1d4b04ff4f70b5166e7b3a2f606460fd = L.circleMarker(
+                [32.8067, -86.7911],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.02, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_6ce8a4709ff574e8b75eb4550ddea650 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cef9ab3257b5daf7cfae000005e0b413 = $(`<div id="html_cef9ab3257b5daf7cfae000005e0b413" style="width: 100.0%; height: 100.0%;">State: Alabama<br>Severity: 4<br>Accidents: 2</div>`)[0];
+                popup_6ce8a4709ff574e8b75eb4550ddea650.setContent(html_cef9ab3257b5daf7cfae000005e0b413);
+            
+        
+
+        circle_marker_1d4b04ff4f70b5166e7b3a2f606460fd.bindPopup(popup_6ce8a4709ff574e8b75eb4550ddea650)
+        ;
+
+        
+    
+    
+            circle_marker_1d4b04ff4f70b5166e7b3a2f606460fd.bindTooltip(
+                `<div>
+                     Severity: 4<br>Accidents: 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_63fbd65e66ab342422544d162c553631 = L.circleMarker(
+                [34.7465, -92.2896],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.01, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_c81a405e91d0e1f7189975f519dec9e1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_868141beb5f9892e761e6658bc0d8411 = $(`<div id="html_868141beb5f9892e761e6658bc0d8411" style="width: 100.0%; height: 100.0%;">State: Arkansas<br>Severity: 1<br>Accidents: 1</div>`)[0];
+                popup_c81a405e91d0e1f7189975f519dec9e1.setContent(html_868141beb5f9892e761e6658bc0d8411);
+            
+        
+
+        circle_marker_63fbd65e66ab342422544d162c553631.bindPopup(popup_c81a405e91d0e1f7189975f519dec9e1)
+        ;
+
+        
+    
+    
+            circle_marker_63fbd65e66ab342422544d162c553631.bindTooltip(
+                `<div>
+                     Severity: 1<br>Accidents: 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_37bfe07a3f2b4e19565d4a5c9cd66296 = L.circleMarker(
+                [34.7465, -92.2896],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.5, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_1622e863ad037f179d2c9ca07ec7ae68 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a6a8e63d279899f4974eaada8c68a22c = $(`<div id="html_a6a8e63d279899f4974eaada8c68a22c" style="width: 100.0%; height: 100.0%;">State: Arkansas<br>Severity: 2<br>Accidents: 50</div>`)[0];
+                popup_1622e863ad037f179d2c9ca07ec7ae68.setContent(html_a6a8e63d279899f4974eaada8c68a22c);
+            
+        
+
+        circle_marker_37bfe07a3f2b4e19565d4a5c9cd66296.bindPopup(popup_1622e863ad037f179d2c9ca07ec7ae68)
+        ;
+
+        
+    
+    
+            circle_marker_37bfe07a3f2b4e19565d4a5c9cd66296.bindTooltip(
+                `<div>
+                     Severity: 2<br>Accidents: 50
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e232d974cc4d50a2bfa75fef09b65408 = L.circleMarker(
+                [34.7465, -92.2896],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.1, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_5f868cf53a6b2106e9c87c1fec529407 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a41f735c1190c0766d1e9304d0d543ac = $(`<div id="html_a41f735c1190c0766d1e9304d0d543ac" style="width: 100.0%; height: 100.0%;">State: Arkansas<br>Severity: 4<br>Accidents: 10</div>`)[0];
+                popup_5f868cf53a6b2106e9c87c1fec529407.setContent(html_a41f735c1190c0766d1e9304d0d543ac);
+            
+        
+
+        circle_marker_e232d974cc4d50a2bfa75fef09b65408.bindPopup(popup_5f868cf53a6b2106e9c87c1fec529407)
+        ;
+
+        
+    
+    
+            circle_marker_e232d974cc4d50a2bfa75fef09b65408.bindTooltip(
+                `<div>
+                     Severity: 4<br>Accidents: 10
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_12596797c06caa3f09d5de2bc0b4893f = L.circleMarker(
+                [34.0489, -111.0937],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.17, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_f7fd6a93b32cbad46431262684abc63e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_acaab3f11ef554fe93687fae7e64d539 = $(`<div id="html_acaab3f11ef554fe93687fae7e64d539" style="width: 100.0%; height: 100.0%;">State: Arizona<br>Severity: 1<br>Accidents: 17</div>`)[0];
+                popup_f7fd6a93b32cbad46431262684abc63e.setContent(html_acaab3f11ef554fe93687fae7e64d539);
+            
+        
+
+        circle_marker_12596797c06caa3f09d5de2bc0b4893f.bindPopup(popup_f7fd6a93b32cbad46431262684abc63e)
+        ;
+
+        
+    
+    
+            circle_marker_12596797c06caa3f09d5de2bc0b4893f.bindTooltip(
+                `<div>
+                     Severity: 1<br>Accidents: 17
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_8366a40b797206471c83831edeaf8e62 = L.circleMarker(
+                [34.0489, -111.0937],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.15, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_177d6d04b0b2cabb57f236f58d6e47b6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b5d96685bf7013d4a7930c8fbfe4bd0b = $(`<div id="html_b5d96685bf7013d4a7930c8fbfe4bd0b" style="width: 100.0%; height: 100.0%;">State: Arizona<br>Severity: 2<br>Accidents: 215</div>`)[0];
+                popup_177d6d04b0b2cabb57f236f58d6e47b6.setContent(html_b5d96685bf7013d4a7930c8fbfe4bd0b);
+            
+        
+
+        circle_marker_8366a40b797206471c83831edeaf8e62.bindPopup(popup_177d6d04b0b2cabb57f236f58d6e47b6)
+        ;
+
+        
+    
+    
+            circle_marker_8366a40b797206471c83831edeaf8e62.bindTooltip(
+                `<div>
+                     Severity: 2<br>Accidents: 215
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d9570be237c269e84cec3fe07d319f43 = L.circleMarker(
+                [34.0489, -111.0937],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.07, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_c45b10e7a3398063a73288acb39c77b1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8390fd075931b4d5c8128692592c69ed = $(`<div id="html_8390fd075931b4d5c8128692592c69ed" style="width: 100.0%; height: 100.0%;">State: Arizona<br>Severity: 4<br>Accidents: 7</div>`)[0];
+                popup_c45b10e7a3398063a73288acb39c77b1.setContent(html_8390fd075931b4d5c8128692592c69ed);
+            
+        
+
+        circle_marker_d9570be237c269e84cec3fe07d319f43.bindPopup(popup_c45b10e7a3398063a73288acb39c77b1)
+        ;
+
+        
+    
+    
+            circle_marker_d9570be237c269e84cec3fe07d319f43.bindTooltip(
+                `<div>
+                     Severity: 4<br>Accidents: 7
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_549948ffcf96432512d89bc1677d0079 = L.circleMarker(
+                [36.7783, -119.4179],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.08, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_521ef13d22bf63963c52c2d5de03ed22 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7531d62857f22c1fb6bf08cb152e7a37 = $(`<div id="html_7531d62857f22c1fb6bf08cb152e7a37" style="width: 100.0%; height: 100.0%;">State: California<br>Severity: 1<br>Accidents: 8</div>`)[0];
+                popup_521ef13d22bf63963c52c2d5de03ed22.setContent(html_7531d62857f22c1fb6bf08cb152e7a37);
+            
+        
+
+        circle_marker_549948ffcf96432512d89bc1677d0079.bindPopup(popup_521ef13d22bf63963c52c2d5de03ed22)
+        ;
+
+        
+    
+    
+            circle_marker_549948ffcf96432512d89bc1677d0079.bindTooltip(
+                `<div>
+                     Severity: 1<br>Accidents: 8
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_088dafb5f665b3fa6fae6490573e722f = L.circleMarker(
+                [36.7783, -119.4179],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 34.7, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_88e1b39880a437c8d99a76f5471980c8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_27702ba3d7455b336ad616e336680a8c = $(`<div id="html_27702ba3d7455b336ad616e336680a8c" style="width: 100.0%; height: 100.0%;">State: California<br>Severity: 2<br>Accidents: 2470</div>`)[0];
+                popup_88e1b39880a437c8d99a76f5471980c8.setContent(html_27702ba3d7455b336ad616e336680a8c);
+            
+        
+
+        circle_marker_088dafb5f665b3fa6fae6490573e722f.bindPopup(popup_88e1b39880a437c8d99a76f5471980c8)
+        ;
+
+        
+    
+    
+            circle_marker_088dafb5f665b3fa6fae6490573e722f.bindTooltip(
+                `<div>
+                     Severity: 2<br>Accidents: 2470
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_0c32cb3070d7315f33ce44c031704d63 = L.circleMarker(
+                [36.7783, -119.4179],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.17, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_ea64c8d2e3b963e14b9c3cba936bcbec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0a8f07ed37d81f428c7331190eaf093f = $(`<div id="html_0a8f07ed37d81f428c7331190eaf093f" style="width: 100.0%; height: 100.0%;">State: California<br>Severity: 3<br>Accidents: 17</div>`)[0];
+                popup_ea64c8d2e3b963e14b9c3cba936bcbec.setContent(html_0a8f07ed37d81f428c7331190eaf093f);
+            
+        
+
+        circle_marker_0c32cb3070d7315f33ce44c031704d63.bindPopup(popup_ea64c8d2e3b963e14b9c3cba936bcbec)
+        ;
+
+        
+    
+    
+            circle_marker_0c32cb3070d7315f33ce44c031704d63.bindTooltip(
+                `<div>
+                     Severity: 3<br>Accidents: 17
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e925c0bedfde67e37896fb67f616259b = L.circleMarker(
+                [36.7783, -119.4179],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.17, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_bb84ea096af0fc4fdd16201412dc69d0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2919dff3931697b69f5baad63bbb0688 = $(`<div id="html_2919dff3931697b69f5baad63bbb0688" style="width: 100.0%; height: 100.0%;">State: California<br>Severity: 4<br>Accidents: 17</div>`)[0];
+                popup_bb84ea096af0fc4fdd16201412dc69d0.setContent(html_2919dff3931697b69f5baad63bbb0688);
+            
+        
+
+        circle_marker_e925c0bedfde67e37896fb67f616259b.bindPopup(popup_bb84ea096af0fc4fdd16201412dc69d0)
+        ;
+
+        
+    
+    
+            circle_marker_e925c0bedfde67e37896fb67f616259b.bindTooltip(
+                `<div>
+                     Severity: 4<br>Accidents: 17
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_05995d271f787d1cc4ae59d88eea608e = L.circleMarker(
+                [39.5501, -105.7821],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.71, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_85960fe878058eea13f3cdefc2658dc7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_449d0f7a1a64db0ee5e463b289968721 = $(`<div id="html_449d0f7a1a64db0ee5e463b289968721" style="width: 100.0%; height: 100.0%;">State: Colorado<br>Severity: 2<br>Accidents: 71</div>`)[0];
+                popup_85960fe878058eea13f3cdefc2658dc7.setContent(html_449d0f7a1a64db0ee5e463b289968721);
+            
+        
+
+        circle_marker_05995d271f787d1cc4ae59d88eea608e.bindPopup(popup_85960fe878058eea13f3cdefc2658dc7)
+        ;
+
+        
+    
+    
+            circle_marker_05995d271f787d1cc4ae59d88eea608e.bindTooltip(
+                `<div>
+                     Severity: 2<br>Accidents: 71
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_5547c4d90c8cdbf9036a4eb94d412c70 = L.circleMarker(
+                [39.5501, -105.7821],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.24, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_216102c4e94e994ede49b28f086a9e97 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7e72d0f37dcf6326e2bdf399401406ed = $(`<div id="html_7e72d0f37dcf6326e2bdf399401406ed" style="width: 100.0%; height: 100.0%;">State: Colorado<br>Severity: 3<br>Accidents: 24</div>`)[0];
+                popup_216102c4e94e994ede49b28f086a9e97.setContent(html_7e72d0f37dcf6326e2bdf399401406ed);
+            
+        
+
+        circle_marker_5547c4d90c8cdbf9036a4eb94d412c70.bindPopup(popup_216102c4e94e994ede49b28f086a9e97)
+        ;
+
+        
+    
+    
+            circle_marker_5547c4d90c8cdbf9036a4eb94d412c70.bindTooltip(
+                `<div>
+                     Severity: 3<br>Accidents: 24
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_42e3573f06ed4c28f1935ead04b426ba = L.circleMarker(
+                [39.5501, -105.7821],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.15, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_9b720dbac064455f191c3ae9a92e6d5f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_827fdbffdf7d1134a1b3ea9a39e4621e = $(`<div id="html_827fdbffdf7d1134a1b3ea9a39e4621e" style="width: 100.0%; height: 100.0%;">State: Colorado<br>Severity: 4<br>Accidents: 15</div>`)[0];
+                popup_9b720dbac064455f191c3ae9a92e6d5f.setContent(html_827fdbffdf7d1134a1b3ea9a39e4621e);
+            
+        
+
+        circle_marker_42e3573f06ed4c28f1935ead04b426ba.bindPopup(popup_9b720dbac064455f191c3ae9a92e6d5f)
+        ;
+
+        
+    
+    
+            circle_marker_42e3573f06ed4c28f1935ead04b426ba.bindTooltip(
+                `<div>
+                     Severity: 4<br>Accidents: 15
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7451a4405a52f0a6da28d0fac8fa1907 = L.circleMarker(
+                [41.6032, -73.0877],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.03, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_831b060849226bc4ea62eca786b11bcf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9d9038408c469bfc9cb8e8def18aaacf = $(`<div id="html_9d9038408c469bfc9cb8e8def18aaacf" style="width: 100.0%; height: 100.0%;">State: Connecticut<br>Severity: 2<br>Accidents: 103</div>`)[0];
+                popup_831b060849226bc4ea62eca786b11bcf.setContent(html_9d9038408c469bfc9cb8e8def18aaacf);
+            
+        
+
+        circle_marker_7451a4405a52f0a6da28d0fac8fa1907.bindPopup(popup_831b060849226bc4ea62eca786b11bcf)
+        ;
+
+        
+    
+    
+            circle_marker_7451a4405a52f0a6da28d0fac8fa1907.bindTooltip(
+                `<div>
+                     Severity: 2<br>Accidents: 103
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d8705440b65e22cfbbc1d42ad17daa05 = L.circleMarker(
+                [41.6032, -73.0877],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.03, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_a10eb3569156930ab26c2283afc29de4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7e16a0d1a040cc2574855ec88748fe87 = $(`<div id="html_7e16a0d1a040cc2574855ec88748fe87" style="width: 100.0%; height: 100.0%;">State: Connecticut<br>Severity: 3<br>Accidents: 3</div>`)[0];
+                popup_a10eb3569156930ab26c2283afc29de4.setContent(html_7e16a0d1a040cc2574855ec88748fe87);
+            
+        
+
+        circle_marker_d8705440b65e22cfbbc1d42ad17daa05.bindPopup(popup_a10eb3569156930ab26c2283afc29de4)
+        ;
+
+        
+    
+    
+            circle_marker_d8705440b65e22cfbbc1d42ad17daa05.bindTooltip(
+                `<div>
+                     Severity: 3<br>Accidents: 3
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_70fb6aa2c49ebb6d24e093d1aa3b1b0c = L.circleMarker(
+                [41.6032, -73.0877],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.07, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_0b33e3ba4d3a23d611cbe4fa3654f5b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_faa40ff565630424246607769001de4b = $(`<div id="html_faa40ff565630424246607769001de4b" style="width: 100.0%; height: 100.0%;">State: Connecticut<br>Severity: 4<br>Accidents: 7</div>`)[0];
+                popup_0b33e3ba4d3a23d611cbe4fa3654f5b7.setContent(html_faa40ff565630424246607769001de4b);
+            
+        
+
+        circle_marker_70fb6aa2c49ebb6d24e093d1aa3b1b0c.bindPopup(popup_0b33e3ba4d3a23d611cbe4fa3654f5b7)
+        ;
+
+        
+    
+    
+            circle_marker_70fb6aa2c49ebb6d24e093d1aa3b1b0c.bindTooltip(
+                `<div>
+                     Severity: 4<br>Accidents: 7
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_348a65f6f3c49742fc27bc6d7c6cf7cb = L.circleMarker(
+                [38.9072, -77.0369],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.43, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_a701084ebdcdf8925bda3c6c2078273e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c88a662869574766e900d46a86741ae8 = $(`<div id="html_c88a662869574766e900d46a86741ae8" style="width: 100.0%; height: 100.0%;">State: District of Columbia<br>Severity: 2<br>Accidents: 43</div>`)[0];
+                popup_a701084ebdcdf8925bda3c6c2078273e.setContent(html_c88a662869574766e900d46a86741ae8);
+            
+        
+
+        circle_marker_348a65f6f3c49742fc27bc6d7c6cf7cb.bindPopup(popup_a701084ebdcdf8925bda3c6c2078273e)
+        ;
+
+        
+    
+    
+            circle_marker_348a65f6f3c49742fc27bc6d7c6cf7cb.bindTooltip(
+                `<div>
+                     Severity: 2<br>Accidents: 43
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_db2d815c62497177348cf6285c2ca2ef = L.circleMarker(
+                [38.9072, -77.0369],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.01, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_fc9bae5b7664a2fe7144dd9f07c33ad7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e1bd34b77e13d284800558628480fab7 = $(`<div id="html_e1bd34b77e13d284800558628480fab7" style="width: 100.0%; height: 100.0%;">State: District of Columbia<br>Severity: 4<br>Accidents: 1</div>`)[0];
+                popup_fc9bae5b7664a2fe7144dd9f07c33ad7.setContent(html_e1bd34b77e13d284800558628480fab7);
+            
+        
+
+        circle_marker_db2d815c62497177348cf6285c2ca2ef.bindPopup(popup_fc9bae5b7664a2fe7144dd9f07c33ad7)
+        ;
+
+        
+    
+    
+            circle_marker_db2d815c62497177348cf6285c2ca2ef.bindTooltip(
+                `<div>
+                     Severity: 4<br>Accidents: 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_230ad5f91783f6e9693d61db0ae652d4 = L.circleMarker(
+                [38.9108, -75.5277],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.15, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_893b448d72dc48040cafeec986d0af6c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5304f164796e4940b07e482e2a0aebe7 = $(`<div id="html_5304f164796e4940b07e482e2a0aebe7" style="width: 100.0%; height: 100.0%;">State: Delaware<br>Severity: 2<br>Accidents: 15</div>`)[0];
+                popup_893b448d72dc48040cafeec986d0af6c.setContent(html_5304f164796e4940b07e482e2a0aebe7);
+            
+        
+
+        circle_marker_230ad5f91783f6e9693d61db0ae652d4.bindPopup(popup_893b448d72dc48040cafeec986d0af6c)
+        ;
+
+        
+    
+    
+            circle_marker_230ad5f91783f6e9693d61db0ae652d4.bindTooltip(
+                `<div>
+                     Severity: 2<br>Accidents: 15
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_98c7736d1ab10649f4c9b1f6d7613ee5 = L.circleMarker(
+                [38.9108, -75.5277],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.02, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_757a8b8ff2f373c4b7f6b08e1f23a661 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_80e5cfa96ae7c6dbd2239ae65eee3763 = $(`<div id="html_80e5cfa96ae7c6dbd2239ae65eee3763" style="width: 100.0%; height: 100.0%;">State: Delaware<br>Severity: 4<br>Accidents: 2</div>`)[0];
+                popup_757a8b8ff2f373c4b7f6b08e1f23a661.setContent(html_80e5cfa96ae7c6dbd2239ae65eee3763);
+            
+        
+
+        circle_marker_98c7736d1ab10649f4c9b1f6d7613ee5.bindPopup(popup_757a8b8ff2f373c4b7f6b08e1f23a661)
+        ;
+
+        
+    
+    
+            circle_marker_98c7736d1ab10649f4c9b1f6d7613ee5.bindTooltip(
+                `<div>
+                     Severity: 4<br>Accidents: 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7ab08e987ffeb0bb9f8cecde8099e64b = L.circleMarker(
+                [27.9947, -81.7603],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.11, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_c02ea457549b3bd2695f3f8849cb99f6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d41e472be94b5c42aa57b1830d3839ef = $(`<div id="html_d41e472be94b5c42aa57b1830d3839ef" style="width: 100.0%; height: 100.0%;">State: Florida<br>Severity: 1<br>Accidents: 11</div>`)[0];
+                popup_c02ea457549b3bd2695f3f8849cb99f6.setContent(html_d41e472be94b5c42aa57b1830d3839ef);
+            
+        
+
+        circle_marker_7ab08e987ffeb0bb9f8cecde8099e64b.bindPopup(popup_c02ea457549b3bd2695f3f8849cb99f6)
+        ;
+
+        
+    
+    
+            circle_marker_7ab08e987ffeb0bb9f8cecde8099e64b.bindTooltip(
+                `<div>
+                     Severity: 1<br>Accidents: 11
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_235c7a678f17a3b1ca40060f7027be29 = L.circleMarker(
+                [27.9947, -81.7603],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 23.93, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_1459b473bdbab36a05a4e31c6de59e0d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_20a1c261cb13d92a1bbe151af4b10b30 = $(`<div id="html_20a1c261cb13d92a1bbe151af4b10b30" style="width: 100.0%; height: 100.0%;">State: Florida<br>Severity: 2<br>Accidents: 1393</div>`)[0];
+                popup_1459b473bdbab36a05a4e31c6de59e0d.setContent(html_20a1c261cb13d92a1bbe151af4b10b30);
+            
+        
+
+        circle_marker_235c7a678f17a3b1ca40060f7027be29.bindPopup(popup_1459b473bdbab36a05a4e31c6de59e0d)
+        ;
+
+        
+    
+    
+            circle_marker_235c7a678f17a3b1ca40060f7027be29.bindTooltip(
+                `<div>
+                     Severity: 2<br>Accidents: 1393
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_53e462999f0be2d0ead2c0132e46b183 = L.circleMarker(
+                [27.9947, -81.7603],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.09, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_f7da589c6f5cce6899b3662a91665ab6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6655566c629cbbac79ae3d3d5b90924d = $(`<div id="html_6655566c629cbbac79ae3d3d5b90924d" style="width: 100.0%; height: 100.0%;">State: Florida<br>Severity: 3<br>Accidents: 9</div>`)[0];
+                popup_f7da589c6f5cce6899b3662a91665ab6.setContent(html_6655566c629cbbac79ae3d3d5b90924d);
+            
+        
+
+        circle_marker_53e462999f0be2d0ead2c0132e46b183.bindPopup(popup_f7da589c6f5cce6899b3662a91665ab6)
+        ;
+
+        
+    
+    
+            circle_marker_53e462999f0be2d0ead2c0132e46b183.bindTooltip(
+                `<div>
+                     Severity: 3<br>Accidents: 9
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c70bfd0a7ccfb0e83e4353ccb6a8ab88 = L.circleMarker(
+                [27.9947, -81.7603],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.12, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_0ce83b91191bfabcfeb713559acb53e8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c7d7480f52004f0b3015d1bbc2be2594 = $(`<div id="html_c7d7480f52004f0b3015d1bbc2be2594" style="width: 100.0%; height: 100.0%;">State: Florida<br>Severity: 4<br>Accidents: 12</div>`)[0];
+                popup_0ce83b91191bfabcfeb713559acb53e8.setContent(html_c7d7480f52004f0b3015d1bbc2be2594);
+            
+        
+
+        circle_marker_c70bfd0a7ccfb0e83e4353ccb6a8ab88.bindPopup(popup_0ce83b91191bfabcfeb713559acb53e8)
+        ;
+
+        
+    
+    
+            circle_marker_c70bfd0a7ccfb0e83e4353ccb6a8ab88.bindTooltip(
+                `<div>
+                     Severity: 4<br>Accidents: 12
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7351b90b2ff4b2f6f271842fa4379d71 = L.circleMarker(
+                [33.749, -84.388],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.120000000000001, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_b84450eec58187e303213b73dc1637d6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_519d1a92ffa880349b88b92322daa73e = $(`<div id="html_519d1a92ffa880349b88b92322daa73e" style="width: 100.0%; height: 100.0%;">State: Georgia<br>Severity: 2<br>Accidents: 112</div>`)[0];
+                popup_b84450eec58187e303213b73dc1637d6.setContent(html_519d1a92ffa880349b88b92322daa73e);
+            
+        
+
+        circle_marker_7351b90b2ff4b2f6f271842fa4379d71.bindPopup(popup_b84450eec58187e303213b73dc1637d6)
+        ;
+
+        
+    
+    
+            circle_marker_7351b90b2ff4b2f6f271842fa4379d71.bindTooltip(
+                `<div>
+                     Severity: 2<br>Accidents: 112
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_57e2c4344c1e50cbd0f17093cf4553de = L.circleMarker(
+                [33.749, -84.388],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.02, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_ec34ca2335c36eb109b6bd15037b1ee0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e49ec6f0e7f98d24ac6952f5f125c4fc = $(`<div id="html_e49ec6f0e7f98d24ac6952f5f125c4fc" style="width: 100.0%; height: 100.0%;">State: Georgia<br>Severity: 3<br>Accidents: 2</div>`)[0];
+                popup_ec34ca2335c36eb109b6bd15037b1ee0.setContent(html_e49ec6f0e7f98d24ac6952f5f125c4fc);
+            
+        
+
+        circle_marker_57e2c4344c1e50cbd0f17093cf4553de.bindPopup(popup_ec34ca2335c36eb109b6bd15037b1ee0)
+        ;
+
+        
+    
+    
+            circle_marker_57e2c4344c1e50cbd0f17093cf4553de.bindTooltip(
+                `<div>
+                     Severity: 3<br>Accidents: 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e49e0ca0057fc290651b0d7b1a36d88d = L.circleMarker(
+                [33.749, -84.388],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.24, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_34cd193bb1b0e6c7f8328fca3a9fec24 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dede9dc627e54b5974519ec20d80fe83 = $(`<div id="html_dede9dc627e54b5974519ec20d80fe83" style="width: 100.0%; height: 100.0%;">State: Georgia<br>Severity: 4<br>Accidents: 24</div>`)[0];
+                popup_34cd193bb1b0e6c7f8328fca3a9fec24.setContent(html_dede9dc627e54b5974519ec20d80fe83);
+            
+        
+
+        circle_marker_e49e0ca0057fc290651b0d7b1a36d88d.bindPopup(popup_34cd193bb1b0e6c7f8328fca3a9fec24)
+        ;
+
+        
+    
+    
+            circle_marker_e49e0ca0057fc290651b0d7b1a36d88d.bindTooltip(
+                `<div>
+                     Severity: 4<br>Accidents: 24
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_680afc0168f16ee0d38341d349015b34 = L.circleMarker(
+                [41.878, -93.0977],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.32, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_5446d0735e797b66cdf4f9a383836cf4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_71a907097c67e38a85b876f4767fbf44 = $(`<div id="html_71a907097c67e38a85b876f4767fbf44" style="width: 100.0%; height: 100.0%;">State: Iowa<br>Severity: 2<br>Accidents: 32</div>`)[0];
+                popup_5446d0735e797b66cdf4f9a383836cf4.setContent(html_71a907097c67e38a85b876f4767fbf44);
+            
+        
+
+        circle_marker_680afc0168f16ee0d38341d349015b34.bindPopup(popup_5446d0735e797b66cdf4f9a383836cf4)
+        ;
+
+        
+    
+    
+            circle_marker_680afc0168f16ee0d38341d349015b34.bindTooltip(
+                `<div>
+                     Severity: 2<br>Accidents: 32
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_1e2e645b8a85c1e4ef99b118555a943f = L.circleMarker(
+                [41.878, -93.0977],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.06, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_ef331076b9b70184bf044311de219159 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_38af51a3c0c7d9ddc7a52ecc5b366217 = $(`<div id="html_38af51a3c0c7d9ddc7a52ecc5b366217" style="width: 100.0%; height: 100.0%;">State: Iowa<br>Severity: 4<br>Accidents: 6</div>`)[0];
+                popup_ef331076b9b70184bf044311de219159.setContent(html_38af51a3c0c7d9ddc7a52ecc5b366217);
+            
+        
+
+        circle_marker_1e2e645b8a85c1e4ef99b118555a943f.bindPopup(popup_ef331076b9b70184bf044311de219159)
+        ;
+
+        
+    
+    
+            circle_marker_1e2e645b8a85c1e4ef99b118555a943f.bindTooltip(
+                `<div>
+                     Severity: 4<br>Accidents: 6
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_48fe59607514b885dbf10d9b78dd3823 = L.circleMarker(
+                [44.0682, -114.742],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.34, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_e9a35c0f67f7752a296b2ab08595a254 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bbb2ad78216aa4bb4dc35af50a54b30f = $(`<div id="html_bbb2ad78216aa4bb4dc35af50a54b30f" style="width: 100.0%; height: 100.0%;">State: Idaho<br>Severity: 2<br>Accidents: 34</div>`)[0];
+                popup_e9a35c0f67f7752a296b2ab08595a254.setContent(html_bbb2ad78216aa4bb4dc35af50a54b30f);
+            
+        
+
+        circle_marker_48fe59607514b885dbf10d9b78dd3823.bindPopup(popup_e9a35c0f67f7752a296b2ab08595a254)
+        ;
+
+        
+    
+    
+            circle_marker_48fe59607514b885dbf10d9b78dd3823.bindTooltip(
+                `<div>
+                     Severity: 2<br>Accidents: 34
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_070fdb48c163f5cc6e34ac212b002635 = L.circleMarker(
+                [44.0682, -114.742],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.02, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_49c6ac82ebc2f8948fe2a197b2e6f538 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_802b51876c1af8360347cb9fff955088 = $(`<div id="html_802b51876c1af8360347cb9fff955088" style="width: 100.0%; height: 100.0%;">State: Idaho<br>Severity: 4<br>Accidents: 2</div>`)[0];
+                popup_49c6ac82ebc2f8948fe2a197b2e6f538.setContent(html_802b51876c1af8360347cb9fff955088);
+            
+        
+
+        circle_marker_070fdb48c163f5cc6e34ac212b002635.bindPopup(popup_49c6ac82ebc2f8948fe2a197b2e6f538)
+        ;
+
+        
+    
+    
+            circle_marker_070fdb48c163f5cc6e34ac212b002635.bindTooltip(
+                `<div>
+                     Severity: 4<br>Accidents: 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_6ae906df35a426931be242a1c721e4dc = L.circleMarker(
+                [40.6331, -89.3985],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.01, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_489c27f04dc79912edeeec5fe3da90ef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cab8507d45db78f4679de5d6e2b8469b = $(`<div id="html_cab8507d45db78f4679de5d6e2b8469b" style="width: 100.0%; height: 100.0%;">State: Illinois<br>Severity: 1<br>Accidents: 1</div>`)[0];
+                popup_489c27f04dc79912edeeec5fe3da90ef.setContent(html_cab8507d45db78f4679de5d6e2b8469b);
+            
+        
+
+        circle_marker_6ae906df35a426931be242a1c721e4dc.bindPopup(popup_489c27f04dc79912edeeec5fe3da90ef)
+        ;
+
+        
+    
+    
+            circle_marker_6ae906df35a426931be242a1c721e4dc.bindTooltip(
+                `<div>
+                     Severity: 1<br>Accidents: 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_3da525b9a7e447b1b455a0efac5c39bd = L.circleMarker(
+                [40.6331, -89.3985],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.82, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_d6eda3e8b0751db2d60c908c8c27f73b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_acdef81b99c647191eda0d719408e719 = $(`<div id="html_acdef81b99c647191eda0d719408e719" style="width: 100.0%; height: 100.0%;">State: Illinois<br>Severity: 2<br>Accidents: 82</div>`)[0];
+                popup_d6eda3e8b0751db2d60c908c8c27f73b.setContent(html_acdef81b99c647191eda0d719408e719);
+            
+        
+
+        circle_marker_3da525b9a7e447b1b455a0efac5c39bd.bindPopup(popup_d6eda3e8b0751db2d60c908c8c27f73b)
+        ;
+
+        
+    
+    
+            circle_marker_3da525b9a7e447b1b455a0efac5c39bd.bindTooltip(
+                `<div>
+                     Severity: 2<br>Accidents: 82
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a5e95505b41917ec2048370c7c68f38b = L.circleMarker(
+                [40.6331, -89.3985],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.32, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_ccb873978f239ae766980a5a2ddb0f95 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a61f20bf79be1a2ac3fefe350bcd31c5 = $(`<div id="html_a61f20bf79be1a2ac3fefe350bcd31c5" style="width: 100.0%; height: 100.0%;">State: Illinois<br>Severity: 3<br>Accidents: 32</div>`)[0];
+                popup_ccb873978f239ae766980a5a2ddb0f95.setContent(html_a61f20bf79be1a2ac3fefe350bcd31c5);
+            
+        
+
+        circle_marker_a5e95505b41917ec2048370c7c68f38b.bindPopup(popup_ccb873978f239ae766980a5a2ddb0f95)
+        ;
+
+        
+    
+    
+            circle_marker_a5e95505b41917ec2048370c7c68f38b.bindTooltip(
+                `<div>
+                     Severity: 3<br>Accidents: 32
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_91a613e0842d16b4ae73bc5f848d4063 = L.circleMarker(
+                [40.6331, -89.3985],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.01, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_ed6bee0ec0451b1d967c49ed60076131 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9ad93a24ada5987bf2ed32ed732fb27d = $(`<div id="html_9ad93a24ada5987bf2ed32ed732fb27d" style="width: 100.0%; height: 100.0%;">State: Illinois<br>Severity: 4<br>Accidents: 1</div>`)[0];
+                popup_ed6bee0ec0451b1d967c49ed60076131.setContent(html_9ad93a24ada5987bf2ed32ed732fb27d);
+            
+        
+
+        circle_marker_91a613e0842d16b4ae73bc5f848d4063.bindPopup(popup_ed6bee0ec0451b1d967c49ed60076131)
+        ;
+
+        
+    
+    
+            circle_marker_91a613e0842d16b4ae73bc5f848d4063.bindTooltip(
+                `<div>
+                     Severity: 4<br>Accidents: 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_fe53b6fd9e7859dac4c5caa68f234c3f = L.circleMarker(
+                [40.267, -86.1349],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.53, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_217e7544c80f3a0b388e3dfde45513fd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f498797a4fb2bc6bd3685d9d4d15c156 = $(`<div id="html_f498797a4fb2bc6bd3685d9d4d15c156" style="width: 100.0%; height: 100.0%;">State: Indiana<br>Severity: 2<br>Accidents: 53</div>`)[0];
+                popup_217e7544c80f3a0b388e3dfde45513fd.setContent(html_f498797a4fb2bc6bd3685d9d4d15c156);
+            
+        
+
+        circle_marker_fe53b6fd9e7859dac4c5caa68f234c3f.bindPopup(popup_217e7544c80f3a0b388e3dfde45513fd)
+        ;
+
+        
+    
+    
+            circle_marker_fe53b6fd9e7859dac4c5caa68f234c3f.bindTooltip(
+                `<div>
+                     Severity: 2<br>Accidents: 53
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_69b46eeb2e1417a173967c5cb52cb26d = L.circleMarker(
+                [40.267, -86.1349],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.03, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_7715f658d9404be74564318f2cb98a67 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b976fca4c98fdfb062a94e6a54206abb = $(`<div id="html_b976fca4c98fdfb062a94e6a54206abb" style="width: 100.0%; height: 100.0%;">State: Indiana<br>Severity: 3<br>Accidents: 3</div>`)[0];
+                popup_7715f658d9404be74564318f2cb98a67.setContent(html_b976fca4c98fdfb062a94e6a54206abb);
+            
+        
+
+        circle_marker_69b46eeb2e1417a173967c5cb52cb26d.bindPopup(popup_7715f658d9404be74564318f2cb98a67)
+        ;
+
+        
+    
+    
+            circle_marker_69b46eeb2e1417a173967c5cb52cb26d.bindTooltip(
+                `<div>
+                     Severity: 3<br>Accidents: 3
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_77ad8f1ca6ef85640de969d4c254e57c = L.circleMarker(
+                [40.267, -86.1349],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.08, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_7cd3d35866cbe7a3cd93f2f411dd95a3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_38b3894a90c7bb4ca64b337671e1441d = $(`<div id="html_38b3894a90c7bb4ca64b337671e1441d" style="width: 100.0%; height: 100.0%;">State: Indiana<br>Severity: 4<br>Accidents: 8</div>`)[0];
+                popup_7cd3d35866cbe7a3cd93f2f411dd95a3.setContent(html_38b3894a90c7bb4ca64b337671e1441d);
+            
+        
+
+        circle_marker_77ad8f1ca6ef85640de969d4c254e57c.bindPopup(popup_7cd3d35866cbe7a3cd93f2f411dd95a3)
+        ;
+
+        
+    
+    
+            circle_marker_77ad8f1ca6ef85640de969d4c254e57c.bindTooltip(
+                `<div>
+                     Severity: 4<br>Accidents: 8
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_94a2612f7fef420eeabaf82e121e9628 = L.circleMarker(
+                [39.0119, -98.4842],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.24, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_f5ebe654d21e183cac3f6b72009dea2c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c14e3a018222bf8602d9f67dbc96c072 = $(`<div id="html_c14e3a018222bf8602d9f67dbc96c072" style="width: 100.0%; height: 100.0%;">State: Kansas<br>Severity: 2<br>Accidents: 24</div>`)[0];
+                popup_f5ebe654d21e183cac3f6b72009dea2c.setContent(html_c14e3a018222bf8602d9f67dbc96c072);
+            
+        
+
+        circle_marker_94a2612f7fef420eeabaf82e121e9628.bindPopup(popup_f5ebe654d21e183cac3f6b72009dea2c)
+        ;
+
+        
+    
+    
+            circle_marker_94a2612f7fef420eeabaf82e121e9628.bindTooltip(
+                `<div>
+                     Severity: 2<br>Accidents: 24
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b189623ec5de9d471b9b4dd9694beb8d = L.circleMarker(
+                [39.0119, -98.4842],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.01, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_68c9cef58ea329009341039cddbcbd0b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9b88dd09e8aec7878cbb5f2b61bf7146 = $(`<div id="html_9b88dd09e8aec7878cbb5f2b61bf7146" style="width: 100.0%; height: 100.0%;">State: Kansas<br>Severity: 4<br>Accidents: 1</div>`)[0];
+                popup_68c9cef58ea329009341039cddbcbd0b.setContent(html_9b88dd09e8aec7878cbb5f2b61bf7146);
+            
+        
+
+        circle_marker_b189623ec5de9d471b9b4dd9694beb8d.bindPopup(popup_68c9cef58ea329009341039cddbcbd0b)
+        ;
+
+        
+    
+    
+            circle_marker_b189623ec5de9d471b9b4dd9694beb8d.bindTooltip(
+                `<div>
+                     Severity: 4<br>Accidents: 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_69cbb19b80d2f42513304dd28bf19618 = L.circleMarker(
+                [37.8393, -84.27],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.09, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_89bef54c4c0406dd4b5f38bdf62be959 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d80f23b6d07e46497f12c823bb13e554 = $(`<div id="html_d80f23b6d07e46497f12c823bb13e554" style="width: 100.0%; height: 100.0%;">State: Kentucky<br>Severity: 2<br>Accidents: 9</div>`)[0];
+                popup_89bef54c4c0406dd4b5f38bdf62be959.setContent(html_d80f23b6d07e46497f12c823bb13e554);
+            
+        
+
+        circle_marker_69cbb19b80d2f42513304dd28bf19618.bindPopup(popup_89bef54c4c0406dd4b5f38bdf62be959)
+        ;
+
+        
+    
+    
+            circle_marker_69cbb19b80d2f42513304dd28bf19618.bindTooltip(
+                `<div>
+                     Severity: 2<br>Accidents: 9
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_3cba13936f4b8894555bd8a116308c3f = L.circleMarker(
+                [37.8393, -84.27],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.02, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_78f1d193f78ffe892e88100517b72c38 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a7ee6e193263949d593e80f6bd4d0d76 = $(`<div id="html_a7ee6e193263949d593e80f6bd4d0d76" style="width: 100.0%; height: 100.0%;">State: Kentucky<br>Severity: 4<br>Accidents: 2</div>`)[0];
+                popup_78f1d193f78ffe892e88100517b72c38.setContent(html_a7ee6e193263949d593e80f6bd4d0d76);
+            
+        
+
+        circle_marker_3cba13936f4b8894555bd8a116308c3f.bindPopup(popup_78f1d193f78ffe892e88100517b72c38)
+        ;
+
+        
+    
+    
+            circle_marker_3cba13936f4b8894555bd8a116308c3f.bindTooltip(
+                `<div>
+                     Severity: 4<br>Accidents: 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_6ecd6edf759883db1344e6a988cdb42b = L.circleMarker(
+                [30.9843, -91.9623],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.05, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_6d6f43444da090737db57f6f5ca3ae64 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cfb3d0fc0e523a0ebe3b0ccef548d78d = $(`<div id="html_cfb3d0fc0e523a0ebe3b0ccef548d78d" style="width: 100.0%; height: 100.0%;">State: Louisiana<br>Severity: 1<br>Accidents: 5</div>`)[0];
+                popup_6d6f43444da090737db57f6f5ca3ae64.setContent(html_cfb3d0fc0e523a0ebe3b0ccef548d78d);
+            
+        
+
+        circle_marker_6ecd6edf759883db1344e6a988cdb42b.bindPopup(popup_6d6f43444da090737db57f6f5ca3ae64)
+        ;
+
+        
+    
+    
+            circle_marker_6ecd6edf759883db1344e6a988cdb42b.bindTooltip(
+                `<div>
+                     Severity: 1<br>Accidents: 5
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_5710c189971089253fb1f6ccf587e9ae = L.circleMarker(
+                [30.9843, -91.9623],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.04, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_d52bf414384b7dcae567e1b48d6a1ead = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e46b61907ad0eff8d79a931ba31f204f = $(`<div id="html_e46b61907ad0eff8d79a931ba31f204f" style="width: 100.0%; height: 100.0%;">State: Louisiana<br>Severity: 2<br>Accidents: 204</div>`)[0];
+                popup_d52bf414384b7dcae567e1b48d6a1ead.setContent(html_e46b61907ad0eff8d79a931ba31f204f);
+            
+        
+
+        circle_marker_5710c189971089253fb1f6ccf587e9ae.bindPopup(popup_d52bf414384b7dcae567e1b48d6a1ead)
+        ;
+
+        
+    
+    
+            circle_marker_5710c189971089253fb1f6ccf587e9ae.bindTooltip(
+                `<div>
+                     Severity: 2<br>Accidents: 204
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f028abbb3c67c61969b904bb74a85bab = L.circleMarker(
+                [30.9843, -91.9623],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.02, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_ac17e7c9d32f9b9a3971915ed0204fea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4f113f57a40324aac13d7323576d6e1b = $(`<div id="html_4f113f57a40324aac13d7323576d6e1b" style="width: 100.0%; height: 100.0%;">State: Louisiana<br>Severity: 4<br>Accidents: 2</div>`)[0];
+                popup_ac17e7c9d32f9b9a3971915ed0204fea.setContent(html_4f113f57a40324aac13d7323576d6e1b);
+            
+        
+
+        circle_marker_f028abbb3c67c61969b904bb74a85bab.bindPopup(popup_ac17e7c9d32f9b9a3971915ed0204fea)
+        ;
+
+        
+    
+    
+            circle_marker_f028abbb3c67c61969b904bb74a85bab.bindTooltip(
+                `<div>
+                     Severity: 4<br>Accidents: 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_02df2a8d21d6523659377da8ebf1d9be = L.circleMarker(
+                [42.4072, -71.3824],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.13, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_5fdd34eced36a34b512baf033a5be61b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9c57f150896e1ae504bf78314dd5312a = $(`<div id="html_9c57f150896e1ae504bf78314dd5312a" style="width: 100.0%; height: 100.0%;">State: Massachusetts<br>Severity: 2<br>Accidents: 13</div>`)[0];
+                popup_5fdd34eced36a34b512baf033a5be61b.setContent(html_9c57f150896e1ae504bf78314dd5312a);
+            
+        
+
+        circle_marker_02df2a8d21d6523659377da8ebf1d9be.bindPopup(popup_5fdd34eced36a34b512baf033a5be61b)
+        ;
+
+        
+    
+    
+            circle_marker_02df2a8d21d6523659377da8ebf1d9be.bindTooltip(
+                `<div>
+                     Severity: 2<br>Accidents: 13
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7026065c96ccf9c184dd7e88c8380abf = L.circleMarker(
+                [42.4072, -71.3824],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.03, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_ae93309f34c7d119aa5781399a3fa209 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e9bb7d6733794b26537de5affd2a400a = $(`<div id="html_e9bb7d6733794b26537de5affd2a400a" style="width: 100.0%; height: 100.0%;">State: Massachusetts<br>Severity: 3<br>Accidents: 3</div>`)[0];
+                popup_ae93309f34c7d119aa5781399a3fa209.setContent(html_e9bb7d6733794b26537de5affd2a400a);
+            
+        
+
+        circle_marker_7026065c96ccf9c184dd7e88c8380abf.bindPopup(popup_ae93309f34c7d119aa5781399a3fa209)
+        ;
+
+        
+    
+    
+            circle_marker_7026065c96ccf9c184dd7e88c8380abf.bindTooltip(
+                `<div>
+                     Severity: 3<br>Accidents: 3
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_526fb4b9272080dd78521492c79f032c = L.circleMarker(
+                [42.4072, -71.3824],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.05, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_ab1d490726b681ccab3d1e72922016f7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f87750941bbdf91ff6468a19c81ca13d = $(`<div id="html_f87750941bbdf91ff6468a19c81ca13d" style="width: 100.0%; height: 100.0%;">State: Massachusetts<br>Severity: 4<br>Accidents: 5</div>`)[0];
+                popup_ab1d490726b681ccab3d1e72922016f7.setContent(html_f87750941bbdf91ff6468a19c81ca13d);
+            
+        
+
+        circle_marker_526fb4b9272080dd78521492c79f032c.bindPopup(popup_ab1d490726b681ccab3d1e72922016f7)
+        ;
+
+        
+    
+    
+            circle_marker_526fb4b9272080dd78521492c79f032c.bindTooltip(
+                `<div>
+                     Severity: 4<br>Accidents: 5
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_0d70572ee2434ed268ef298132341a7a = L.circleMarker(
+                [39.0458, -76.6413],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.01, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_062f80dc60fcb27c8030e1a6c2a28ed8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_beefc4b9e68c6c9fab46486c2276b17b = $(`<div id="html_beefc4b9e68c6c9fab46486c2276b17b" style="width: 100.0%; height: 100.0%;">State: Maryland<br>Severity: 1<br>Accidents: 1</div>`)[0];
+                popup_062f80dc60fcb27c8030e1a6c2a28ed8.setContent(html_beefc4b9e68c6c9fab46486c2276b17b);
+            
+        
+
+        circle_marker_0d70572ee2434ed268ef298132341a7a.bindPopup(popup_062f80dc60fcb27c8030e1a6c2a28ed8)
+        ;
+
+        
+    
+    
+            circle_marker_0d70572ee2434ed268ef298132341a7a.bindTooltip(
+                `<div>
+                     Severity: 1<br>Accidents: 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_622f2187f0f3f07363e0dd52a6a49bc0 = L.circleMarker(
+                [39.0458, -76.6413],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.71, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_56c21d80aba7a2425c75c5e06d264d0e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3bb29cd1003b8bb4403b88f0ceeca4bc = $(`<div id="html_3bb29cd1003b8bb4403b88f0ceeca4bc" style="width: 100.0%; height: 100.0%;">State: Maryland<br>Severity: 2<br>Accidents: 171</div>`)[0];
+                popup_56c21d80aba7a2425c75c5e06d264d0e.setContent(html_3bb29cd1003b8bb4403b88f0ceeca4bc);
+            
+        
+
+        circle_marker_622f2187f0f3f07363e0dd52a6a49bc0.bindPopup(popup_56c21d80aba7a2425c75c5e06d264d0e)
+        ;
+
+        
+    
+    
+            circle_marker_622f2187f0f3f07363e0dd52a6a49bc0.bindTooltip(
+                `<div>
+                     Severity: 2<br>Accidents: 171
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_4699c8fc3a5d7e4f24d4318c0fe0a300 = L.circleMarker(
+                [39.0458, -76.6413],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.03, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_adc9579342e1f39b7dc98fefa22e718f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5a5b7d85bff42efd2e74cea74f9fcf77 = $(`<div id="html_5a5b7d85bff42efd2e74cea74f9fcf77" style="width: 100.0%; height: 100.0%;">State: Maryland<br>Severity: 3<br>Accidents: 3</div>`)[0];
+                popup_adc9579342e1f39b7dc98fefa22e718f.setContent(html_5a5b7d85bff42efd2e74cea74f9fcf77);
+            
+        
+
+        circle_marker_4699c8fc3a5d7e4f24d4318c0fe0a300.bindPopup(popup_adc9579342e1f39b7dc98fefa22e718f)
+        ;
+
+        
+    
+    
+            circle_marker_4699c8fc3a5d7e4f24d4318c0fe0a300.bindTooltip(
+                `<div>
+                     Severity: 3<br>Accidents: 3
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b68d08e15b0079b5ab57cfb801bd1c54 = L.circleMarker(
+                [39.0458, -76.6413],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.19, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_a6fb2b7a738c792dc53eeaf5a5583e95 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f80e0fb003df25308bd2282784b264e9 = $(`<div id="html_f80e0fb003df25308bd2282784b264e9" style="width: 100.0%; height: 100.0%;">State: Maryland<br>Severity: 4<br>Accidents: 19</div>`)[0];
+                popup_a6fb2b7a738c792dc53eeaf5a5583e95.setContent(html_f80e0fb003df25308bd2282784b264e9);
+            
+        
+
+        circle_marker_b68d08e15b0079b5ab57cfb801bd1c54.bindPopup(popup_a6fb2b7a738c792dc53eeaf5a5583e95)
+        ;
+
+        
+    
+    
+            circle_marker_b68d08e15b0079b5ab57cfb801bd1c54.bindTooltip(
+                `<div>
+                     Severity: 4<br>Accidents: 19
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_59a5873fdeb9e99f1fda72f3b2cfbc2f = L.circleMarker(
+                [44.2998, -69.4495],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.05, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_fdbd023335630ef79fb6e7994dc807d4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e3d4a1f38eec521b635a3c593ee2d1ec = $(`<div id="html_e3d4a1f38eec521b635a3c593ee2d1ec" style="width: 100.0%; height: 100.0%;">State: Maine<br>Severity: 2<br>Accidents: 5</div>`)[0];
+                popup_fdbd023335630ef79fb6e7994dc807d4.setContent(html_e3d4a1f38eec521b635a3c593ee2d1ec);
+            
+        
+
+        circle_marker_59a5873fdeb9e99f1fda72f3b2cfbc2f.bindPopup(popup_fdbd023335630ef79fb6e7994dc807d4)
+        ;
+
+        
+    
+    
+            circle_marker_59a5873fdeb9e99f1fda72f3b2cfbc2f.bindTooltip(
+                `<div>
+                     Severity: 2<br>Accidents: 5
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_9623cd2e7c4dcd3fef9390cfc17e9994 = L.circleMarker(
+                [44.3148, -85.6024],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.43, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_8bfa403b9cb043ac2add39464db2906a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3153d6992ad800630d924da5736e4780 = $(`<div id="html_3153d6992ad800630d924da5736e4780" style="width: 100.0%; height: 100.0%;">State: Michigan<br>Severity: 2<br>Accidents: 143</div>`)[0];
+                popup_8bfa403b9cb043ac2add39464db2906a.setContent(html_3153d6992ad800630d924da5736e4780);
+            
+        
+
+        circle_marker_9623cd2e7c4dcd3fef9390cfc17e9994.bindPopup(popup_8bfa403b9cb043ac2add39464db2906a)
+        ;
+
+        
+    
+    
+            circle_marker_9623cd2e7c4dcd3fef9390cfc17e9994.bindTooltip(
+                `<div>
+                     Severity: 2<br>Accidents: 143
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_deae02a6390516688c9523e60ec7f7a2 = L.circleMarker(
+                [44.3148, -85.6024],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.04, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_c13f003af7d3a0c4f42d38bc33bbbabc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_926ad68cda1a13372102c0d3fc29a32a = $(`<div id="html_926ad68cda1a13372102c0d3fc29a32a" style="width: 100.0%; height: 100.0%;">State: Michigan<br>Severity: 3<br>Accidents: 4</div>`)[0];
+                popup_c13f003af7d3a0c4f42d38bc33bbbabc.setContent(html_926ad68cda1a13372102c0d3fc29a32a);
+            
+        
+
+        circle_marker_deae02a6390516688c9523e60ec7f7a2.bindPopup(popup_c13f003af7d3a0c4f42d38bc33bbbabc)
+        ;
+
+        
+    
+    
+            circle_marker_deae02a6390516688c9523e60ec7f7a2.bindTooltip(
+                `<div>
+                     Severity: 3<br>Accidents: 4
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_4c3419aaab81035a6588a1c0b697b125 = L.circleMarker(
+                [44.3148, -85.6024],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.18, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_10522a1551901e32e4b3571ecd582ac4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_312c2454f20f0b41ebe5a6cd00b3a08d = $(`<div id="html_312c2454f20f0b41ebe5a6cd00b3a08d" style="width: 100.0%; height: 100.0%;">State: Michigan<br>Severity: 4<br>Accidents: 18</div>`)[0];
+                popup_10522a1551901e32e4b3571ecd582ac4.setContent(html_312c2454f20f0b41ebe5a6cd00b3a08d);
+            
+        
+
+        circle_marker_4c3419aaab81035a6588a1c0b697b125.bindPopup(popup_10522a1551901e32e4b3571ecd582ac4)
+        ;
+
+        
+    
+    
+            circle_marker_4c3419aaab81035a6588a1c0b697b125.bindTooltip(
+                `<div>
+                     Severity: 4<br>Accidents: 18
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7d81edf041fdd3f2be9f620a8c1b1fe8 = L.circleMarker(
+                [46.7296, -94.6859],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.120000000000001, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_b5aba5f6bcc33ffbacac009e55aad552 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_98069a7f787a70a01a26786cdba166cb = $(`<div id="html_98069a7f787a70a01a26786cdba166cb" style="width: 100.0%; height: 100.0%;">State: Minnesota<br>Severity: 2<br>Accidents: 312</div>`)[0];
+                popup_b5aba5f6bcc33ffbacac009e55aad552.setContent(html_98069a7f787a70a01a26786cdba166cb);
+            
+        
+
+        circle_marker_7d81edf041fdd3f2be9f620a8c1b1fe8.bindPopup(popup_b5aba5f6bcc33ffbacac009e55aad552)
+        ;
+
+        
+    
+    
+            circle_marker_7d81edf041fdd3f2be9f620a8c1b1fe8.bindTooltip(
+                `<div>
+                     Severity: 2<br>Accidents: 312
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_07646d9ea2fc30f2e71483f721213f5d = L.circleMarker(
+                [46.7296, -94.6859],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.09, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_bea2189b4a631b6a3f6b127a4f3ea363 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b31e7fc1b7f5db36eca9f17ea0f97002 = $(`<div id="html_b31e7fc1b7f5db36eca9f17ea0f97002" style="width: 100.0%; height: 100.0%;">State: Minnesota<br>Severity: 3<br>Accidents: 9</div>`)[0];
+                popup_bea2189b4a631b6a3f6b127a4f3ea363.setContent(html_b31e7fc1b7f5db36eca9f17ea0f97002);
+            
+        
+
+        circle_marker_07646d9ea2fc30f2e71483f721213f5d.bindPopup(popup_bea2189b4a631b6a3f6b127a4f3ea363)
+        ;
+
+        
+    
+    
+            circle_marker_07646d9ea2fc30f2e71483f721213f5d.bindTooltip(
+                `<div>
+                     Severity: 3<br>Accidents: 9
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_5cdcd9b8c8df52ff36fa27d6191fefb7 = L.circleMarker(
+                [46.7296, -94.6859],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.05, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_2351bc371ef48e88ceb8c5f8d85459b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b6798858d90518712daecfed669e09a5 = $(`<div id="html_b6798858d90518712daecfed669e09a5" style="width: 100.0%; height: 100.0%;">State: Minnesota<br>Severity: 4<br>Accidents: 5</div>`)[0];
+                popup_2351bc371ef48e88ceb8c5f8d85459b9.setContent(html_b6798858d90518712daecfed669e09a5);
+            
+        
+
+        circle_marker_5cdcd9b8c8df52ff36fa27d6191fefb7.bindPopup(popup_2351bc371ef48e88ceb8c5f8d85459b9)
+        ;
+
+        
+    
+    
+            circle_marker_5cdcd9b8c8df52ff36fa27d6191fefb7.bindTooltip(
+                `<div>
+                     Severity: 4<br>Accidents: 5
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_fe104f52a67c9954eb4f4cfa5f7c6e0a = L.circleMarker(
+                [37.9643, -91.8318],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.02, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_744accd399a3e97f7ba6431111d1fe08 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b6cc0f0cd3f34936ab0246dfd68fa406 = $(`<div id="html_b6cc0f0cd3f34936ab0246dfd68fa406" style="width: 100.0%; height: 100.0%;">State: Missouri<br>Severity: 1<br>Accidents: 2</div>`)[0];
+                popup_744accd399a3e97f7ba6431111d1fe08.setContent(html_b6cc0f0cd3f34936ab0246dfd68fa406);
+            
+        
+
+        circle_marker_fe104f52a67c9954eb4f4cfa5f7c6e0a.bindPopup(popup_744accd399a3e97f7ba6431111d1fe08)
+        ;
+
+        
+    
+    
+            circle_marker_fe104f52a67c9954eb4f4cfa5f7c6e0a.bindTooltip(
+                `<div>
+                     Severity: 1<br>Accidents: 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_ea5d4e2eeda5a85a5edf9374c3b0b66b = L.circleMarker(
+                [37.9643, -91.8318],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.74, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_85e4f2e4239ad56f512072644169871d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_79ade980020e1e5835c6fd45d6f01b49 = $(`<div id="html_79ade980020e1e5835c6fd45d6f01b49" style="width: 100.0%; height: 100.0%;">State: Missouri<br>Severity: 2<br>Accidents: 74</div>`)[0];
+                popup_85e4f2e4239ad56f512072644169871d.setContent(html_79ade980020e1e5835c6fd45d6f01b49);
+            
+        
+
+        circle_marker_ea5d4e2eeda5a85a5edf9374c3b0b66b.bindPopup(popup_85e4f2e4239ad56f512072644169871d)
+        ;
+
+        
+    
+    
+            circle_marker_ea5d4e2eeda5a85a5edf9374c3b0b66b.bindTooltip(
+                `<div>
+                     Severity: 2<br>Accidents: 74
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_312c97c563571deb9cc7f126bc1c4cc3 = L.circleMarker(
+                [37.9643, -91.8318],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.03, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_33dd900197906c8e7ea1fbb277da296e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0d02c5cad57c7da0301b3d7fd49a9158 = $(`<div id="html_0d02c5cad57c7da0301b3d7fd49a9158" style="width: 100.0%; height: 100.0%;">State: Missouri<br>Severity: 3<br>Accidents: 3</div>`)[0];
+                popup_33dd900197906c8e7ea1fbb277da296e.setContent(html_0d02c5cad57c7da0301b3d7fd49a9158);
+            
+        
+
+        circle_marker_312c97c563571deb9cc7f126bc1c4cc3.bindPopup(popup_33dd900197906c8e7ea1fbb277da296e)
+        ;
+
+        
+    
+    
+            circle_marker_312c97c563571deb9cc7f126bc1c4cc3.bindTooltip(
+                `<div>
+                     Severity: 3<br>Accidents: 3
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_af40c4b2c5641bd80c621223d9b93ca0 = L.circleMarker(
+                [37.9643, -91.8318],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.02, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_d631183cd695bfe7bdc6432930ac5d8f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_44a98a83d65c6ab820efd2580a43506f = $(`<div id="html_44a98a83d65c6ab820efd2580a43506f" style="width: 100.0%; height: 100.0%;">State: Missouri<br>Severity: 4<br>Accidents: 2</div>`)[0];
+                popup_d631183cd695bfe7bdc6432930ac5d8f.setContent(html_44a98a83d65c6ab820efd2580a43506f);
+            
+        
+
+        circle_marker_af40c4b2c5641bd80c621223d9b93ca0.bindPopup(popup_d631183cd695bfe7bdc6432930ac5d8f)
+        ;
+
+        
+    
+    
+            circle_marker_af40c4b2c5641bd80c621223d9b93ca0.bindTooltip(
+                `<div>
+                     Severity: 4<br>Accidents: 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_5ab99a71861bb39e30ab5099234445e8 = L.circleMarker(
+                [32.3547, -89.3985],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.24, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_4609d1b2c27343bf30afe9cf35b9e6aa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b2ad490df1595843a523095f30d27ef4 = $(`<div id="html_b2ad490df1595843a523095f30d27ef4" style="width: 100.0%; height: 100.0%;">State: Mississippi<br>Severity: 2<br>Accidents: 24</div>`)[0];
+                popup_4609d1b2c27343bf30afe9cf35b9e6aa.setContent(html_b2ad490df1595843a523095f30d27ef4);
+            
+        
+
+        circle_marker_5ab99a71861bb39e30ab5099234445e8.bindPopup(popup_4609d1b2c27343bf30afe9cf35b9e6aa)
+        ;
+
+        
+    
+    
+            circle_marker_5ab99a71861bb39e30ab5099234445e8.bindTooltip(
+                `<div>
+                     Severity: 2<br>Accidents: 24
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_97742df01117444d247c192171b0b71a = L.circleMarker(
+                [46.8797, -110.3626],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.73, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_e3037d39b31610dc60c56cde44b58a91 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3ad424b621f255e0c98f9a98f9cf2b11 = $(`<div id="html_3ad424b621f255e0c98f9a98f9cf2b11" style="width: 100.0%; height: 100.0%;">State: Montana<br>Severity: 2<br>Accidents: 73</div>`)[0];
+                popup_e3037d39b31610dc60c56cde44b58a91.setContent(html_3ad424b621f255e0c98f9a98f9cf2b11);
+            
+        
+
+        circle_marker_97742df01117444d247c192171b0b71a.bindPopup(popup_e3037d39b31610dc60c56cde44b58a91)
+        ;
+
+        
+    
+    
+            circle_marker_97742df01117444d247c192171b0b71a.bindTooltip(
+                `<div>
+                     Severity: 2<br>Accidents: 73
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f3275cea0d541134200aff91ce9e175c = L.circleMarker(
+                [46.8797, -110.3626],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.01, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_63659a2248a4ea2f28c5d63ec406caa1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c67dd7219d30a78292d286c513601f45 = $(`<div id="html_c67dd7219d30a78292d286c513601f45" style="width: 100.0%; height: 100.0%;">State: Montana<br>Severity: 3<br>Accidents: 1</div>`)[0];
+                popup_63659a2248a4ea2f28c5d63ec406caa1.setContent(html_c67dd7219d30a78292d286c513601f45);
+            
+        
+
+        circle_marker_f3275cea0d541134200aff91ce9e175c.bindPopup(popup_63659a2248a4ea2f28c5d63ec406caa1)
+        ;
+
+        
+    
+    
+            circle_marker_f3275cea0d541134200aff91ce9e175c.bindTooltip(
+                `<div>
+                     Severity: 3<br>Accidents: 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_3532e223d326e9af4147b5b63b589079 = L.circleMarker(
+                [46.8797, -110.3626],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.01, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_21bbe014a4b1c3eb68e4ddd86c3c37ac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eff3a4cccbbd93eb028b5d1eb137ace5 = $(`<div id="html_eff3a4cccbbd93eb028b5d1eb137ace5" style="width: 100.0%; height: 100.0%;">State: Montana<br>Severity: 4<br>Accidents: 1</div>`)[0];
+                popup_21bbe014a4b1c3eb68e4ddd86c3c37ac.setContent(html_eff3a4cccbbd93eb028b5d1eb137ace5);
+            
+        
+
+        circle_marker_3532e223d326e9af4147b5b63b589079.bindPopup(popup_21bbe014a4b1c3eb68e4ddd86c3c37ac)
+        ;
+
+        
+    
+    
+            circle_marker_3532e223d326e9af4147b5b63b589079.bindTooltip(
+                `<div>
+                     Severity: 4<br>Accidents: 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_8767a678ce410f72e1809a4ea377fa2b = L.circleMarker(
+                [35.7596, -79.0193],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.06, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_58b82fe229918b6a6c3b3c3b8c796977 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ba001880d64fba02f3e39624080d7598 = $(`<div id="html_ba001880d64fba02f3e39624080d7598" style="width: 100.0%; height: 100.0%;">State: North Carolina<br>Severity: 1<br>Accidents: 6</div>`)[0];
+                popup_58b82fe229918b6a6c3b3c3b8c796977.setContent(html_ba001880d64fba02f3e39624080d7598);
+            
+        
+
+        circle_marker_8767a678ce410f72e1809a4ea377fa2b.bindPopup(popup_58b82fe229918b6a6c3b3c3b8c796977)
+        ;
+
+        
+    
+    
+            circle_marker_8767a678ce410f72e1809a4ea377fa2b.bindTooltip(
+                `<div>
+                     Severity: 1<br>Accidents: 6
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_38769451f12f2609d2dedf8abd75eac7 = L.circleMarker(
+                [35.7596, -79.0193],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.72, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_0f9aa111386201eef356091a7c5162e5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e7df19a2e5e07dfae3ee1fb619372ac3 = $(`<div id="html_e7df19a2e5e07dfae3ee1fb619372ac3" style="width: 100.0%; height: 100.0%;">State: North Carolina<br>Severity: 2<br>Accidents: 372</div>`)[0];
+                popup_0f9aa111386201eef356091a7c5162e5.setContent(html_e7df19a2e5e07dfae3ee1fb619372ac3);
+            
+        
+
+        circle_marker_38769451f12f2609d2dedf8abd75eac7.bindPopup(popup_0f9aa111386201eef356091a7c5162e5)
+        ;
+
+        
+    
+    
+            circle_marker_38769451f12f2609d2dedf8abd75eac7.bindTooltip(
+                `<div>
+                     Severity: 2<br>Accidents: 372
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_8fd19e23011c4613ee97016c2d06b121 = L.circleMarker(
+                [35.7596, -79.0193],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.06, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_5d4fd328cd0ec81918eda0ca4410a671 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6cbf40848068b4c16d610f675f6f5650 = $(`<div id="html_6cbf40848068b4c16d610f675f6f5650" style="width: 100.0%; height: 100.0%;">State: North Carolina<br>Severity: 3<br>Accidents: 6</div>`)[0];
+                popup_5d4fd328cd0ec81918eda0ca4410a671.setContent(html_6cbf40848068b4c16d610f675f6f5650);
+            
+        
+
+        circle_marker_8fd19e23011c4613ee97016c2d06b121.bindPopup(popup_5d4fd328cd0ec81918eda0ca4410a671)
+        ;
+
+        
+    
+    
+            circle_marker_8fd19e23011c4613ee97016c2d06b121.bindTooltip(
+                `<div>
+                     Severity: 3<br>Accidents: 6
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_0c05657162744f6a1ab1714d9f38ae4d = L.circleMarker(
+                [35.7596, -79.0193],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.24, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_1b3dfc2d6a53d309954a45373e7ac11a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b01896b0827655de900e8b60319866e9 = $(`<div id="html_b01896b0827655de900e8b60319866e9" style="width: 100.0%; height: 100.0%;">State: North Carolina<br>Severity: 4<br>Accidents: 24</div>`)[0];
+                popup_1b3dfc2d6a53d309954a45373e7ac11a.setContent(html_b01896b0827655de900e8b60319866e9);
+            
+        
+
+        circle_marker_0c05657162744f6a1ab1714d9f38ae4d.bindPopup(popup_1b3dfc2d6a53d309954a45373e7ac11a)
+        ;
+
+        
+    
+    
+            circle_marker_0c05657162744f6a1ab1714d9f38ae4d.bindTooltip(
+                `<div>
+                     Severity: 4<br>Accidents: 24
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d3e7501a3df18a7044bf4ddf8c5f036b = L.circleMarker(
+                [47.5515, -101.002],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.07, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_392094a81bd79d80017ba71dbc926967 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_10d368a50b75223cbf8b31258755295d = $(`<div id="html_10d368a50b75223cbf8b31258755295d" style="width: 100.0%; height: 100.0%;">State: North Dakota<br>Severity: 2<br>Accidents: 7</div>`)[0];
+                popup_392094a81bd79d80017ba71dbc926967.setContent(html_10d368a50b75223cbf8b31258755295d);
+            
+        
+
+        circle_marker_d3e7501a3df18a7044bf4ddf8c5f036b.bindPopup(popup_392094a81bd79d80017ba71dbc926967)
+        ;
+
+        
+    
+    
+            circle_marker_d3e7501a3df18a7044bf4ddf8c5f036b.bindTooltip(
+                `<div>
+                     Severity: 2<br>Accidents: 7
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a4491657434b68a1d146fb3ee3ed3d15 = L.circleMarker(
+                [41.1254, -98.2681],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.09, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_82cb81879ce21c8adbfd9d5eaa32674d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ebf867f56a3cabf8518d4756dff49598 = $(`<div id="html_ebf867f56a3cabf8518d4756dff49598" style="width: 100.0%; height: 100.0%;">State: Nebraska<br>Severity: 2<br>Accidents: 9</div>`)[0];
+                popup_82cb81879ce21c8adbfd9d5eaa32674d.setContent(html_ebf867f56a3cabf8518d4756dff49598);
+            
+        
+
+        circle_marker_a4491657434b68a1d146fb3ee3ed3d15.bindPopup(popup_82cb81879ce21c8adbfd9d5eaa32674d)
+        ;
+
+        
+    
+    
+            circle_marker_a4491657434b68a1d146fb3ee3ed3d15.bindTooltip(
+                `<div>
+                     Severity: 2<br>Accidents: 9
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_326b6e53ac0405c3578985e598c41e66 = L.circleMarker(
+                [41.1254, -98.2681],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.01, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_9a232780e09c96da0067b78541756446 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_90b4c688626f908d7dca2139790ba531 = $(`<div id="html_90b4c688626f908d7dca2139790ba531" style="width: 100.0%; height: 100.0%;">State: Nebraska<br>Severity: 3<br>Accidents: 1</div>`)[0];
+                popup_9a232780e09c96da0067b78541756446.setContent(html_90b4c688626f908d7dca2139790ba531);
+            
+        
+
+        circle_marker_326b6e53ac0405c3578985e598c41e66.bindPopup(popup_9a232780e09c96da0067b78541756446)
+        ;
+
+        
+    
+    
+            circle_marker_326b6e53ac0405c3578985e598c41e66.bindTooltip(
+                `<div>
+                     Severity: 3<br>Accidents: 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e2a4aae83614f1b1291867f3aa1d57cc = L.circleMarker(
+                [43.1939, -71.5724],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.03, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_5b71dbdd55e07b63e7adcd06cfaa4941 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7c36962287f4d83b7d3d1a5660d3b3b2 = $(`<div id="html_7c36962287f4d83b7d3d1a5660d3b3b2" style="width: 100.0%; height: 100.0%;">State: New Hampshire<br>Severity: 2<br>Accidents: 3</div>`)[0];
+                popup_5b71dbdd55e07b63e7adcd06cfaa4941.setContent(html_7c36962287f4d83b7d3d1a5660d3b3b2);
+            
+        
+
+        circle_marker_e2a4aae83614f1b1291867f3aa1d57cc.bindPopup(popup_5b71dbdd55e07b63e7adcd06cfaa4941)
+        ;
+
+        
+    
+    
+            circle_marker_e2a4aae83614f1b1291867f3aa1d57cc.bindTooltip(
+                `<div>
+                     Severity: 2<br>Accidents: 3
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_cd819662f6ba72a3c25e889f1257a5ec = L.circleMarker(
+                [40.0583, -74.4057],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.86, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_1e122af55dbdf85d673c4aaaf0584ade = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2fe42c36797ff6175147c2e0fda1028a = $(`<div id="html_2fe42c36797ff6175147c2e0fda1028a" style="width: 100.0%; height: 100.0%;">State: New Jersey<br>Severity: 2<br>Accidents: 186</div>`)[0];
+                popup_1e122af55dbdf85d673c4aaaf0584ade.setContent(html_2fe42c36797ff6175147c2e0fda1028a);
+            
+        
+
+        circle_marker_cd819662f6ba72a3c25e889f1257a5ec.bindPopup(popup_1e122af55dbdf85d673c4aaaf0584ade)
+        ;
+
+        
+    
+    
+            circle_marker_cd819662f6ba72a3c25e889f1257a5ec.bindTooltip(
+                `<div>
+                     Severity: 2<br>Accidents: 186
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b4b9dc2656bbab7c3d56d5507a0727b9 = L.circleMarker(
+                [40.0583, -74.4057],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.01, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_df3fbbdeb7fd236d05061118392c9404 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f642ad28bf4a33804306f0abfcff7c4f = $(`<div id="html_f642ad28bf4a33804306f0abfcff7c4f" style="width: 100.0%; height: 100.0%;">State: New Jersey<br>Severity: 3<br>Accidents: 1</div>`)[0];
+                popup_df3fbbdeb7fd236d05061118392c9404.setContent(html_f642ad28bf4a33804306f0abfcff7c4f);
+            
+        
+
+        circle_marker_b4b9dc2656bbab7c3d56d5507a0727b9.bindPopup(popup_df3fbbdeb7fd236d05061118392c9404)
+        ;
+
+        
+    
+    
+            circle_marker_b4b9dc2656bbab7c3d56d5507a0727b9.bindTooltip(
+                `<div>
+                     Severity: 3<br>Accidents: 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_2a0bfc419bcf4d383637a88cf37fe4f9 = L.circleMarker(
+                [40.0583, -74.4057],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.08, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_6d5fdf62f069f2da2b3b9ceb0cd6e923 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_12b4887ed041e8033926bc0e4fdea468 = $(`<div id="html_12b4887ed041e8033926bc0e4fdea468" style="width: 100.0%; height: 100.0%;">State: New Jersey<br>Severity: 4<br>Accidents: 8</div>`)[0];
+                popup_6d5fdf62f069f2da2b3b9ceb0cd6e923.setContent(html_12b4887ed041e8033926bc0e4fdea468);
+            
+        
+
+        circle_marker_2a0bfc419bcf4d383637a88cf37fe4f9.bindPopup(popup_6d5fdf62f069f2da2b3b9ceb0cd6e923)
+        ;
+
+        
+    
+    
+            circle_marker_2a0bfc419bcf4d383637a88cf37fe4f9.bindTooltip(
+                `<div>
+                     Severity: 4<br>Accidents: 8
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_cbc7c067389ee18002551b55451364dd = L.circleMarker(
+                [34.5199, -105.8701],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.05, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_f15f3902969b55b5aea4ed17f5b63510 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5902b597166d29632eda5e5f4bb6e3a6 = $(`<div id="html_5902b597166d29632eda5e5f4bb6e3a6" style="width: 100.0%; height: 100.0%;">State: New Mexico<br>Severity: 2<br>Accidents: 5</div>`)[0];
+                popup_f15f3902969b55b5aea4ed17f5b63510.setContent(html_5902b597166d29632eda5e5f4bb6e3a6);
+            
+        
+
+        circle_marker_cbc7c067389ee18002551b55451364dd.bindPopup(popup_f15f3902969b55b5aea4ed17f5b63510)
+        ;
+
+        
+    
+    
+            circle_marker_cbc7c067389ee18002551b55451364dd.bindTooltip(
+                `<div>
+                     Severity: 2<br>Accidents: 5
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_78de8c708e409a129ef9f4e2ae3bf980 = L.circleMarker(
+                [38.8026, -116.4194],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.16, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_27313a1f0c443a59400cf181e38a2745 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4514e8f267814393cc02fd7e181c9297 = $(`<div id="html_4514e8f267814393cc02fd7e181c9297" style="width: 100.0%; height: 100.0%;">State: Nevada<br>Severity: 2<br>Accidents: 16</div>`)[0];
+                popup_27313a1f0c443a59400cf181e38a2745.setContent(html_4514e8f267814393cc02fd7e181c9297);
+            
+        
+
+        circle_marker_78de8c708e409a129ef9f4e2ae3bf980.bindPopup(popup_27313a1f0c443a59400cf181e38a2745)
+        ;
+
+        
+    
+    
+            circle_marker_78de8c708e409a129ef9f4e2ae3bf980.bindTooltip(
+                `<div>
+                     Severity: 2<br>Accidents: 16
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_766de03c03e49b426382314246f3501b = L.circleMarker(
+                [38.8026, -116.4194],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.01, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_0fee9d13ed93735bae4efa091a88e932 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_feb927c22f9f60a8cf3e1c19e4eb75fe = $(`<div id="html_feb927c22f9f60a8cf3e1c19e4eb75fe" style="width: 100.0%; height: 100.0%;">State: Nevada<br>Severity: 3<br>Accidents: 1</div>`)[0];
+                popup_0fee9d13ed93735bae4efa091a88e932.setContent(html_feb927c22f9f60a8cf3e1c19e4eb75fe);
+            
+        
+
+        circle_marker_766de03c03e49b426382314246f3501b.bindPopup(popup_0fee9d13ed93735bae4efa091a88e932)
+        ;
+
+        
+    
+    
+            circle_marker_766de03c03e49b426382314246f3501b.bindTooltip(
+                `<div>
+                     Severity: 3<br>Accidents: 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_842e60ba0d72a688131933b1ff85237b = L.circleMarker(
+                [40.7128, -74.006],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.02, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_baf6ecdcce09903d279fb47c98dca0e9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1354cfcd863e803691c13f70216e8d28 = $(`<div id="html_1354cfcd863e803691c13f70216e8d28" style="width: 100.0%; height: 100.0%;">State: New York<br>Severity: 1<br>Accidents: 2</div>`)[0];
+                popup_baf6ecdcce09903d279fb47c98dca0e9.setContent(html_1354cfcd863e803691c13f70216e8d28);
+            
+        
+
+        circle_marker_842e60ba0d72a688131933b1ff85237b.bindPopup(popup_baf6ecdcce09903d279fb47c98dca0e9)
+        ;
+
+        
+    
+    
+            circle_marker_842e60ba0d72a688131933b1ff85237b.bindTooltip(
+                `<div>
+                     Severity: 1<br>Accidents: 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_de51a54a3dd7636e54f0240406e8489b = L.circleMarker(
+                [40.7128, -74.006],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.41, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_57cfc9fef543c6a0d824f4e9e736deaf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_83d3e9d1cbe8e8a148f1e5869c1f5b28 = $(`<div id="html_83d3e9d1cbe8e8a148f1e5869c1f5b28" style="width: 100.0%; height: 100.0%;">State: New York<br>Severity: 2<br>Accidents: 441</div>`)[0];
+                popup_57cfc9fef543c6a0d824f4e9e736deaf.setContent(html_83d3e9d1cbe8e8a148f1e5869c1f5b28);
+            
+        
+
+        circle_marker_de51a54a3dd7636e54f0240406e8489b.bindPopup(popup_57cfc9fef543c6a0d824f4e9e736deaf)
+        ;
+
+        
+    
+    
+            circle_marker_de51a54a3dd7636e54f0240406e8489b.bindTooltip(
+                `<div>
+                     Severity: 2<br>Accidents: 441
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_37bbe2fa00948e090c00cfbec061f84c = L.circleMarker(
+                [40.7128, -74.006],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.12, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_1b025f7621384c3c5999906e7e928866 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_69a19d4b73f6d7db1fa11e73742134e3 = $(`<div id="html_69a19d4b73f6d7db1fa11e73742134e3" style="width: 100.0%; height: 100.0%;">State: New York<br>Severity: 3<br>Accidents: 12</div>`)[0];
+                popup_1b025f7621384c3c5999906e7e928866.setContent(html_69a19d4b73f6d7db1fa11e73742134e3);
+            
+        
+
+        circle_marker_37bbe2fa00948e090c00cfbec061f84c.bindPopup(popup_1b025f7621384c3c5999906e7e928866)
+        ;
+
+        
+    
+    
+            circle_marker_37bbe2fa00948e090c00cfbec061f84c.bindTooltip(
+                `<div>
+                     Severity: 3<br>Accidents: 12
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_9b49401c6e4133e8742ab5cd184c2c24 = L.circleMarker(
+                [40.7128, -74.006],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.18, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_f6aed2fa9011d28d2ae024bd05e8e15a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_258b6679749c6b73e3a11178fd9f3a08 = $(`<div id="html_258b6679749c6b73e3a11178fd9f3a08" style="width: 100.0%; height: 100.0%;">State: New York<br>Severity: 4<br>Accidents: 18</div>`)[0];
+                popup_f6aed2fa9011d28d2ae024bd05e8e15a.setContent(html_258b6679749c6b73e3a11178fd9f3a08);
+            
+        
+
+        circle_marker_9b49401c6e4133e8742ab5cd184c2c24.bindPopup(popup_f6aed2fa9011d28d2ae024bd05e8e15a)
+        ;
+
+        
+    
+    
+            circle_marker_9b49401c6e4133e8742ab5cd184c2c24.bindTooltip(
+                `<div>
+                     Severity: 4<br>Accidents: 18
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e74b826bc1e3db0f8a128e4141699a4d = L.circleMarker(
+                [40.4173, -82.9071],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.01, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_aab667e5f5d4e41311164024cc2170fc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6acff24edeb2829d5ee9ca647b40380e = $(`<div id="html_6acff24edeb2829d5ee9ca647b40380e" style="width: 100.0%; height: 100.0%;">State: Ohio<br>Severity: 1<br>Accidents: 1</div>`)[0];
+                popup_aab667e5f5d4e41311164024cc2170fc.setContent(html_6acff24edeb2829d5ee9ca647b40380e);
+            
+        
+
+        circle_marker_e74b826bc1e3db0f8a128e4141699a4d.bindPopup(popup_aab667e5f5d4e41311164024cc2170fc)
+        ;
+
+        
+    
+    
+            circle_marker_e74b826bc1e3db0f8a128e4141699a4d.bindTooltip(
+                `<div>
+                     Severity: 1<br>Accidents: 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_5fc4e089aa226a3269a873bc404d79e5 = L.circleMarker(
+                [40.4173, -82.9071],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.76, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_e2472931621b19c94f2d95d656b507bb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9763e52ae952d51f2bb7ac249ef3f900 = $(`<div id="html_9763e52ae952d51f2bb7ac249ef3f900" style="width: 100.0%; height: 100.0%;">State: Ohio<br>Severity: 2<br>Accidents: 76</div>`)[0];
+                popup_e2472931621b19c94f2d95d656b507bb.setContent(html_9763e52ae952d51f2bb7ac249ef3f900);
+            
+        
+
+        circle_marker_5fc4e089aa226a3269a873bc404d79e5.bindPopup(popup_e2472931621b19c94f2d95d656b507bb)
+        ;
+
+        
+    
+    
+            circle_marker_5fc4e089aa226a3269a873bc404d79e5.bindTooltip(
+                `<div>
+                     Severity: 2<br>Accidents: 76
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a4b125a2359f1e305b47b33b85d0d00d = L.circleMarker(
+                [40.4173, -82.9071],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.01, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_5472f119e2ecd6f505b2950b08392a6e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1f10703e0c4f20b450c3b3a86b38ba6f = $(`<div id="html_1f10703e0c4f20b450c3b3a86b38ba6f" style="width: 100.0%; height: 100.0%;">State: Ohio<br>Severity: 3<br>Accidents: 1</div>`)[0];
+                popup_5472f119e2ecd6f505b2950b08392a6e.setContent(html_1f10703e0c4f20b450c3b3a86b38ba6f);
+            
+        
+
+        circle_marker_a4b125a2359f1e305b47b33b85d0d00d.bindPopup(popup_5472f119e2ecd6f505b2950b08392a6e)
+        ;
+
+        
+    
+    
+            circle_marker_a4b125a2359f1e305b47b33b85d0d00d.bindTooltip(
+                `<div>
+                     Severity: 3<br>Accidents: 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_850e70f5170366a65ecc44f3d5677012 = L.circleMarker(
+                [40.4173, -82.9071],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.03, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_97bbfeda9d91e803e2670184d3be4c39 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ecd3451f1f6464364ee9853c23b7d679 = $(`<div id="html_ecd3451f1f6464364ee9853c23b7d679" style="width: 100.0%; height: 100.0%;">State: Ohio<br>Severity: 4<br>Accidents: 3</div>`)[0];
+                popup_97bbfeda9d91e803e2670184d3be4c39.setContent(html_ecd3451f1f6464364ee9853c23b7d679);
+            
+        
+
+        circle_marker_850e70f5170366a65ecc44f3d5677012.bindPopup(popup_97bbfeda9d91e803e2670184d3be4c39)
+        ;
+
+        
+    
+    
+            circle_marker_850e70f5170366a65ecc44f3d5677012.bindTooltip(
+                `<div>
+                     Severity: 4<br>Accidents: 3
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c8444d4ffb976d27b59f635088cadcb4 = L.circleMarker(
+                [35.4676, -97.5164],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.3, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_31e86ef267d1a96aa820196ebb98a4ad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a6acd2c50cd7a8f7acddbde93299253d = $(`<div id="html_a6acd2c50cd7a8f7acddbde93299253d" style="width: 100.0%; height: 100.0%;">State: Oklahoma<br>Severity: 2<br>Accidents: 30</div>`)[0];
+                popup_31e86ef267d1a96aa820196ebb98a4ad.setContent(html_a6acd2c50cd7a8f7acddbde93299253d);
+            
+        
+
+        circle_marker_c8444d4ffb976d27b59f635088cadcb4.bindPopup(popup_31e86ef267d1a96aa820196ebb98a4ad)
+        ;
+
+        
+    
+    
+            circle_marker_c8444d4ffb976d27b59f635088cadcb4.bindTooltip(
+                `<div>
+                     Severity: 2<br>Accidents: 30
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c2904e85cb89f8df59ea4438185f3f34 = L.circleMarker(
+                [35.4676, -97.5164],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.02, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_bc372438c247629505c3e3dd6fc48876 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4d87feb18454501841ace541fe6f81a7 = $(`<div id="html_4d87feb18454501841ace541fe6f81a7" style="width: 100.0%; height: 100.0%;">State: Oklahoma<br>Severity: 3<br>Accidents: 2</div>`)[0];
+                popup_bc372438c247629505c3e3dd6fc48876.setContent(html_4d87feb18454501841ace541fe6f81a7);
+            
+        
+
+        circle_marker_c2904e85cb89f8df59ea4438185f3f34.bindPopup(popup_bc372438c247629505c3e3dd6fc48876)
+        ;
+
+        
+    
+    
+            circle_marker_c2904e85cb89f8df59ea4438185f3f34.bindTooltip(
+                `<div>
+                     Severity: 3<br>Accidents: 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a7fe826e860b93c2fd118c62839a8d34 = L.circleMarker(
+                [35.4676, -97.5164],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.01, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_ad30c697ca68ecbd9bfca5e2dc2a4694 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7976da5a3f6680ce4d0d298a6abfceda = $(`<div id="html_7976da5a3f6680ce4d0d298a6abfceda" style="width: 100.0%; height: 100.0%;">State: Oklahoma<br>Severity: 4<br>Accidents: 1</div>`)[0];
+                popup_ad30c697ca68ecbd9bfca5e2dc2a4694.setContent(html_7976da5a3f6680ce4d0d298a6abfceda);
+            
+        
+
+        circle_marker_a7fe826e860b93c2fd118c62839a8d34.bindPopup(popup_ad30c697ca68ecbd9bfca5e2dc2a4694)
+        ;
+
+        
+    
+    
+            circle_marker_a7fe826e860b93c2fd118c62839a8d34.bindTooltip(
+                `<div>
+                     Severity: 4<br>Accidents: 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_05a57511bd8dbb0220d8103838833eff = L.circleMarker(
+                [43.8041, -120.5542],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.05, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_e457b4123954c6d628aeebc069ef1ada = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_93808eb6f83628c30f7627cc5151ea05 = $(`<div id="html_93808eb6f83628c30f7627cc5151ea05" style="width: 100.0%; height: 100.0%;">State: Oregon<br>Severity: 1<br>Accidents: 5</div>`)[0];
+                popup_e457b4123954c6d628aeebc069ef1ada.setContent(html_93808eb6f83628c30f7627cc5151ea05);
+            
+        
+
+        circle_marker_05a57511bd8dbb0220d8103838833eff.bindPopup(popup_e457b4123954c6d628aeebc069ef1ada)
+        ;
+
+        
+    
+    
+            circle_marker_05a57511bd8dbb0220d8103838833eff.bindTooltip(
+                `<div>
+                     Severity: 1<br>Accidents: 5
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_ad62e31f1af0b97e1bccf4f515a60509 = L.circleMarker(
+                [43.8041, -120.5542],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.35, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_91236c9c0d7650ddfe9cc092c14879aa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cbdfd2399b624afdef1780150fe539dc = $(`<div id="html_cbdfd2399b624afdef1780150fe539dc" style="width: 100.0%; height: 100.0%;">State: Oregon<br>Severity: 2<br>Accidents: 335</div>`)[0];
+                popup_91236c9c0d7650ddfe9cc092c14879aa.setContent(html_cbdfd2399b624afdef1780150fe539dc);
+            
+        
+
+        circle_marker_ad62e31f1af0b97e1bccf4f515a60509.bindPopup(popup_91236c9c0d7650ddfe9cc092c14879aa)
+        ;
+
+        
+    
+    
+            circle_marker_ad62e31f1af0b97e1bccf4f515a60509.bindTooltip(
+                `<div>
+                     Severity: 2<br>Accidents: 335
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_029aee6fe08afcc5abd39f3dcdf812ef = L.circleMarker(
+                [43.8041, -120.5542],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.08, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_4f6351ed3ed36bb064bc8cbfcf9f3aab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bd1d2903652737c3e0af2c6b24b5e537 = $(`<div id="html_bd1d2903652737c3e0af2c6b24b5e537" style="width: 100.0%; height: 100.0%;">State: Oregon<br>Severity: 3<br>Accidents: 8</div>`)[0];
+                popup_4f6351ed3ed36bb064bc8cbfcf9f3aab.setContent(html_bd1d2903652737c3e0af2c6b24b5e537);
+            
+        
+
+        circle_marker_029aee6fe08afcc5abd39f3dcdf812ef.bindPopup(popup_4f6351ed3ed36bb064bc8cbfcf9f3aab)
+        ;
+
+        
+    
+    
+            circle_marker_029aee6fe08afcc5abd39f3dcdf812ef.bindTooltip(
+                `<div>
+                     Severity: 3<br>Accidents: 8
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_65aa4a47cd7ee7cedab1c44561f419ac = L.circleMarker(
+                [43.8041, -120.5542],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.11, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_1801ff84a74dc9fb7266e4cc25d4ccaf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8b94bba8dba855b1c6c5ce3bf4834a13 = $(`<div id="html_8b94bba8dba855b1c6c5ce3bf4834a13" style="width: 100.0%; height: 100.0%;">State: Oregon<br>Severity: 4<br>Accidents: 11</div>`)[0];
+                popup_1801ff84a74dc9fb7266e4cc25d4ccaf.setContent(html_8b94bba8dba855b1c6c5ce3bf4834a13);
+            
+        
+
+        circle_marker_65aa4a47cd7ee7cedab1c44561f419ac.bindPopup(popup_1801ff84a74dc9fb7266e4cc25d4ccaf)
+        ;
+
+        
+    
+    
+            circle_marker_65aa4a47cd7ee7cedab1c44561f419ac.bindTooltip(
+                `<div>
+                     Severity: 4<br>Accidents: 11
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_5d58244409c697b9417d96251594a773 = L.circleMarker(
+                [41.2033, -77.1945],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.02, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_c48bc9fce8787cf40390c756ed4ecafe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_97c4be97d8badc8148b7454ea5d1f973 = $(`<div id="html_97c4be97d8badc8148b7454ea5d1f973" style="width: 100.0%; height: 100.0%;">State: Pennsylvania<br>Severity: 1<br>Accidents: 2</div>`)[0];
+                popup_c48bc9fce8787cf40390c756ed4ecafe.setContent(html_97c4be97d8badc8148b7454ea5d1f973);
+            
+        
+
+        circle_marker_5d58244409c697b9417d96251594a773.bindPopup(popup_c48bc9fce8787cf40390c756ed4ecafe)
+        ;
+
+        
+    
+    
+            circle_marker_5d58244409c697b9417d96251594a773.bindTooltip(
+                `<div>
+                     Severity: 1<br>Accidents: 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_ea1c2ba79066092ef8e85c5df9355823 = L.circleMarker(
+                [41.2033, -77.1945],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.95, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_beb028610ecf7971bfb637d183e0a45d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a3899cd194768d876c95d63538e71755 = $(`<div id="html_a3899cd194768d876c95d63538e71755" style="width: 100.0%; height: 100.0%;">State: Pennsylvania<br>Severity: 2<br>Accidents: 395</div>`)[0];
+                popup_beb028610ecf7971bfb637d183e0a45d.setContent(html_a3899cd194768d876c95d63538e71755);
+            
+        
+
+        circle_marker_ea1c2ba79066092ef8e85c5df9355823.bindPopup(popup_beb028610ecf7971bfb637d183e0a45d)
+        ;
+
+        
+    
+    
+            circle_marker_ea1c2ba79066092ef8e85c5df9355823.bindTooltip(
+                `<div>
+                     Severity: 2<br>Accidents: 395
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_da2093523ec112278580264ebebf2a2e = L.circleMarker(
+                [41.2033, -77.1945],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.07, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_f30ec90a1678d17de889c8d2aedc5324 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9554c5c6ca0a756a107410a81c0c78e0 = $(`<div id="html_9554c5c6ca0a756a107410a81c0c78e0" style="width: 100.0%; height: 100.0%;">State: Pennsylvania<br>Severity: 3<br>Accidents: 7</div>`)[0];
+                popup_f30ec90a1678d17de889c8d2aedc5324.setContent(html_9554c5c6ca0a756a107410a81c0c78e0);
+            
+        
+
+        circle_marker_da2093523ec112278580264ebebf2a2e.bindPopup(popup_f30ec90a1678d17de889c8d2aedc5324)
+        ;
+
+        
+    
+    
+            circle_marker_da2093523ec112278580264ebebf2a2e.bindTooltip(
+                `<div>
+                     Severity: 3<br>Accidents: 7
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c12c44cf8d75c93e8e26717531756531 = L.circleMarker(
+                [41.2033, -77.1945],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.25, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_7efac0e1ee7c22557978c64db5f9d779 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_953e56199a21dace02004944e523b231 = $(`<div id="html_953e56199a21dace02004944e523b231" style="width: 100.0%; height: 100.0%;">State: Pennsylvania<br>Severity: 4<br>Accidents: 25</div>`)[0];
+                popup_7efac0e1ee7c22557978c64db5f9d779.setContent(html_953e56199a21dace02004944e523b231);
+            
+        
+
+        circle_marker_c12c44cf8d75c93e8e26717531756531.bindPopup(popup_7efac0e1ee7c22557978c64db5f9d779)
+        ;
+
+        
+    
+    
+            circle_marker_c12c44cf8d75c93e8e26717531756531.bindTooltip(
+                `<div>
+                     Severity: 4<br>Accidents: 25
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e4b1b4d8e5fb843d70ee54d90fedd84f = L.circleMarker(
+                [41.6809, -71.5118],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.04, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_8f730ffe4591431f1aa0b48443f0303e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ad8fd3d0eee16c5c6211e951e42ddda2 = $(`<div id="html_ad8fd3d0eee16c5c6211e951e42ddda2" style="width: 100.0%; height: 100.0%;">State: Rhode Island<br>Severity: 2<br>Accidents: 4</div>`)[0];
+                popup_8f730ffe4591431f1aa0b48443f0303e.setContent(html_ad8fd3d0eee16c5c6211e951e42ddda2);
+            
+        
+
+        circle_marker_e4b1b4d8e5fb843d70ee54d90fedd84f.bindPopup(popup_8f730ffe4591431f1aa0b48443f0303e)
+        ;
+
+        
+    
+    
+            circle_marker_e4b1b4d8e5fb843d70ee54d90fedd84f.bindTooltip(
+                `<div>
+                     Severity: 2<br>Accidents: 4
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_8a7fc3a35133ed14371c7bdcc9d7e746 = L.circleMarker(
+                [41.6809, -71.5118],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.01, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_a791a6fb3a7589bf821d70d2c3d61793 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_52dcf34ecb251b5121a3d404ae51f7ce = $(`<div id="html_52dcf34ecb251b5121a3d404ae51f7ce" style="width: 100.0%; height: 100.0%;">State: Rhode Island<br>Severity: 3<br>Accidents: 1</div>`)[0];
+                popup_a791a6fb3a7589bf821d70d2c3d61793.setContent(html_52dcf34ecb251b5121a3d404ae51f7ce);
+            
+        
+
+        circle_marker_8a7fc3a35133ed14371c7bdcc9d7e746.bindPopup(popup_a791a6fb3a7589bf821d70d2c3d61793)
+        ;
+
+        
+    
+    
+            circle_marker_8a7fc3a35133ed14371c7bdcc9d7e746.bindTooltip(
+                `<div>
+                     Severity: 3<br>Accidents: 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_ad9069eb246bf74e79730a3edacd8fea = L.circleMarker(
+                [33.8361, -81.1637],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.58, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_1da26c5b00c5399c1d79fee577610a61 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ed38fd5a09d7d86bc523eec956dfa31c = $(`<div id="html_ed38fd5a09d7d86bc523eec956dfa31c" style="width: 100.0%; height: 100.0%;">State: South Carolina<br>Severity: 2<br>Accidents: 358</div>`)[0];
+                popup_1da26c5b00c5399c1d79fee577610a61.setContent(html_ed38fd5a09d7d86bc523eec956dfa31c);
+            
+        
+
+        circle_marker_ad9069eb246bf74e79730a3edacd8fea.bindPopup(popup_1da26c5b00c5399c1d79fee577610a61)
+        ;
+
+        
+    
+    
+            circle_marker_ad9069eb246bf74e79730a3edacd8fea.bindTooltip(
+                `<div>
+                     Severity: 2<br>Accidents: 358
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_62e0264ce4d91cd81471aab80f0208e2 = L.circleMarker(
+                [33.8361, -81.1637],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.01, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_710ca4b6abd2db35bba8e0316279785e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bc35de91416323a5b8a679f04a2c17b0 = $(`<div id="html_bc35de91416323a5b8a679f04a2c17b0" style="width: 100.0%; height: 100.0%;">State: South Carolina<br>Severity: 3<br>Accidents: 1</div>`)[0];
+                popup_710ca4b6abd2db35bba8e0316279785e.setContent(html_bc35de91416323a5b8a679f04a2c17b0);
+            
+        
+
+        circle_marker_62e0264ce4d91cd81471aab80f0208e2.bindPopup(popup_710ca4b6abd2db35bba8e0316279785e)
+        ;
+
+        
+    
+    
+            circle_marker_62e0264ce4d91cd81471aab80f0208e2.bindTooltip(
+                `<div>
+                     Severity: 3<br>Accidents: 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_1850bb294e356d108f3feb3b4012e43e = L.circleMarker(
+                [33.8361, -81.1637],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.05, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_7a54e34c62b4c239a43513338bd5ab41 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b4808a646151f8ee27393b8ffbabef11 = $(`<div id="html_b4808a646151f8ee27393b8ffbabef11" style="width: 100.0%; height: 100.0%;">State: South Carolina<br>Severity: 4<br>Accidents: 5</div>`)[0];
+                popup_7a54e34c62b4c239a43513338bd5ab41.setContent(html_b4808a646151f8ee27393b8ffbabef11);
+            
+        
+
+        circle_marker_1850bb294e356d108f3feb3b4012e43e.bindPopup(popup_7a54e34c62b4c239a43513338bd5ab41)
+        ;
+
+        
+    
+    
+            circle_marker_1850bb294e356d108f3feb3b4012e43e.bindTooltip(
+                `<div>
+                     Severity: 4<br>Accidents: 5
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_68b330e757a29968d798cf938eca290a = L.circleMarker(
+                [35.5175, -86.5804],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.01, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_b34653d255fece90160656878921c51a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_296b8b556dcefdb3e79de094a4fd8917 = $(`<div id="html_296b8b556dcefdb3e79de094a4fd8917" style="width: 100.0%; height: 100.0%;">State: Tennessee<br>Severity: 1<br>Accidents: 1</div>`)[0];
+                popup_b34653d255fece90160656878921c51a.setContent(html_296b8b556dcefdb3e79de094a4fd8917);
+            
+        
+
+        circle_marker_68b330e757a29968d798cf938eca290a.bindPopup(popup_b34653d255fece90160656878921c51a)
+        ;
+
+        
+    
+    
+            circle_marker_68b330e757a29968d798cf938eca290a.bindTooltip(
+                `<div>
+                     Severity: 1<br>Accidents: 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_9ed9f160910fdcb036c28006900f6610 = L.circleMarker(
+                [35.5175, -86.5804],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.879999999999999, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_11e23b274b73c59d86388ee10380ddc3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_51df6dde2320041f66c11fef9cb2e7a0 = $(`<div id="html_51df6dde2320041f66c11fef9cb2e7a0" style="width: 100.0%; height: 100.0%;">State: Tennessee<br>Severity: 2<br>Accidents: 188</div>`)[0];
+                popup_11e23b274b73c59d86388ee10380ddc3.setContent(html_51df6dde2320041f66c11fef9cb2e7a0);
+            
+        
+
+        circle_marker_9ed9f160910fdcb036c28006900f6610.bindPopup(popup_11e23b274b73c59d86388ee10380ddc3)
+        ;
+
+        
+    
+    
+            circle_marker_9ed9f160910fdcb036c28006900f6610.bindTooltip(
+                `<div>
+                     Severity: 2<br>Accidents: 188
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_269bb81bd4fef443c9236c3b94d213ed = L.circleMarker(
+                [35.5175, -86.5804],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.02, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_654efa1486de16f99360ad89034cb35a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a82d7e8e45881035109bdcf9680e3171 = $(`<div id="html_a82d7e8e45881035109bdcf9680e3171" style="width: 100.0%; height: 100.0%;">State: Tennessee<br>Severity: 3<br>Accidents: 2</div>`)[0];
+                popup_654efa1486de16f99360ad89034cb35a.setContent(html_a82d7e8e45881035109bdcf9680e3171);
+            
+        
+
+        circle_marker_269bb81bd4fef443c9236c3b94d213ed.bindPopup(popup_654efa1486de16f99360ad89034cb35a)
+        ;
+
+        
+    
+    
+            circle_marker_269bb81bd4fef443c9236c3b94d213ed.bindTooltip(
+                `<div>
+                     Severity: 3<br>Accidents: 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_455a87e16e76b3dba804adb771840338 = L.circleMarker(
+                [35.5175, -86.5804],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.03, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_90dc5dd0b669a5acb208b8b0758cdac1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6c3991f4d5ec568e8ae0013403688626 = $(`<div id="html_6c3991f4d5ec568e8ae0013403688626" style="width: 100.0%; height: 100.0%;">State: Tennessee<br>Severity: 4<br>Accidents: 3</div>`)[0];
+                popup_90dc5dd0b669a5acb208b8b0758cdac1.setContent(html_6c3991f4d5ec568e8ae0013403688626);
+            
+        
+
+        circle_marker_455a87e16e76b3dba804adb771840338.bindPopup(popup_90dc5dd0b669a5acb208b8b0758cdac1)
+        ;
+
+        
+    
+    
+            circle_marker_455a87e16e76b3dba804adb771840338.bindTooltip(
+                `<div>
+                     Severity: 4<br>Accidents: 3
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_5e9a7fa7300664b1488c43b38494f8c1 = L.circleMarker(
+                [31.9686, -99.9018],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.01, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_0689953774103f934aa12d2e154d488a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1ed4b891132e5a3a91b21660a1d5583d = $(`<div id="html_1ed4b891132e5a3a91b21660a1d5583d" style="width: 100.0%; height: 100.0%;">State: Texas<br>Severity: 1<br>Accidents: 1</div>`)[0];
+                popup_0689953774103f934aa12d2e154d488a.setContent(html_1ed4b891132e5a3a91b21660a1d5583d);
+            
+        
+
+        circle_marker_5e9a7fa7300664b1488c43b38494f8c1.bindPopup(popup_0689953774103f934aa12d2e154d488a)
+        ;
+
+        
+    
+    
+            circle_marker_5e9a7fa7300664b1488c43b38494f8c1.bindTooltip(
+                `<div>
+                     Severity: 1<br>Accidents: 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_8507493cce6f6748884355dee4ef62ac = L.circleMarker(
+                [31.9686, -99.9018],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.5, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_943e64e94933118ff947a0ef88d22028 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ce283b27937d04944cec74791563baf8 = $(`<div id="html_ce283b27937d04944cec74791563baf8" style="width: 100.0%; height: 100.0%;">State: Texas<br>Severity: 2<br>Accidents: 450</div>`)[0];
+                popup_943e64e94933118ff947a0ef88d22028.setContent(html_ce283b27937d04944cec74791563baf8);
+            
+        
+
+        circle_marker_8507493cce6f6748884355dee4ef62ac.bindPopup(popup_943e64e94933118ff947a0ef88d22028)
+        ;
+
+        
+    
+    
+            circle_marker_8507493cce6f6748884355dee4ef62ac.bindTooltip(
+                `<div>
+                     Severity: 2<br>Accidents: 450
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_62df6e9509ee60a865eae52590b28d58 = L.circleMarker(
+                [31.9686, -99.9018],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.21, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_0e65d51666a31f845141970f201f08e5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f67895f0a4576d5de6ea494e366243f5 = $(`<div id="html_f67895f0a4576d5de6ea494e366243f5" style="width: 100.0%; height: 100.0%;">State: Texas<br>Severity: 3<br>Accidents: 21</div>`)[0];
+                popup_0e65d51666a31f845141970f201f08e5.setContent(html_f67895f0a4576d5de6ea494e366243f5);
+            
+        
+
+        circle_marker_62df6e9509ee60a865eae52590b28d58.bindPopup(popup_0e65d51666a31f845141970f201f08e5)
+        ;
+
+        
+    
+    
+            circle_marker_62df6e9509ee60a865eae52590b28d58.bindTooltip(
+                `<div>
+                     Severity: 3<br>Accidents: 21
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_19bdcc7270cfab2cf520454afbe5820e = L.circleMarker(
+                [31.9686, -99.9018],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.06, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_0145fc63d86fce1e2de6e7d31b4dc5b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dfedca4f06d68b88106dca3bc586c1a1 = $(`<div id="html_dfedca4f06d68b88106dca3bc586c1a1" style="width: 100.0%; height: 100.0%;">State: Texas<br>Severity: 4<br>Accidents: 6</div>`)[0];
+                popup_0145fc63d86fce1e2de6e7d31b4dc5b7.setContent(html_dfedca4f06d68b88106dca3bc586c1a1);
+            
+        
+
+        circle_marker_19bdcc7270cfab2cf520454afbe5820e.bindPopup(popup_0145fc63d86fce1e2de6e7d31b4dc5b7)
+        ;
+
+        
+    
+    
+            circle_marker_19bdcc7270cfab2cf520454afbe5820e.bindTooltip(
+                `<div>
+                     Severity: 4<br>Accidents: 6
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_ba94eb236ee994813efd5a7959bb2ad0 = L.circleMarker(
+                [40.1135, -111.8636],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.02, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_0dab593eb46bb2091c8900211bd44f8f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_96504c5b962fd62193a40cd46b0bdc4a = $(`<div id="html_96504c5b962fd62193a40cd46b0bdc4a" style="width: 100.0%; height: 100.0%;">State: Utah<br>Severity: 1<br>Accidents: 2</div>`)[0];
+                popup_0dab593eb46bb2091c8900211bd44f8f.setContent(html_96504c5b962fd62193a40cd46b0bdc4a);
+            
+        
+
+        circle_marker_ba94eb236ee994813efd5a7959bb2ad0.bindPopup(popup_0dab593eb46bb2091c8900211bd44f8f)
+        ;
+
+        
+    
+    
+            circle_marker_ba94eb236ee994813efd5a7959bb2ad0.bindTooltip(
+                `<div>
+                     Severity: 1<br>Accidents: 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a77507a9d6af82450363787f260bcb2b = L.circleMarker(
+                [40.1135, -111.8636],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.120000000000001, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_0185ff73226267dc21be9ec23e4f5d71 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2149540f2904f2a80bbcf141116e9b04 = $(`<div id="html_2149540f2904f2a80bbcf141116e9b04" style="width: 100.0%; height: 100.0%;">State: Utah<br>Severity: 2<br>Accidents: 112</div>`)[0];
+                popup_0185ff73226267dc21be9ec23e4f5d71.setContent(html_2149540f2904f2a80bbcf141116e9b04);
+            
+        
+
+        circle_marker_a77507a9d6af82450363787f260bcb2b.bindPopup(popup_0185ff73226267dc21be9ec23e4f5d71)
+        ;
+
+        
+    
+    
+            circle_marker_a77507a9d6af82450363787f260bcb2b.bindTooltip(
+                `<div>
+                     Severity: 2<br>Accidents: 112
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_ae565c7d8e482957404a1200d36af467 = L.circleMarker(
+                [40.1135, -111.8636],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.02, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_4de5880e91260f734dc4dda1e3dd77ff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8a657b78a594ac046fd7d4b74ba49782 = $(`<div id="html_8a657b78a594ac046fd7d4b74ba49782" style="width: 100.0%; height: 100.0%;">State: Utah<br>Severity: 4<br>Accidents: 2</div>`)[0];
+                popup_4de5880e91260f734dc4dda1e3dd77ff.setContent(html_8a657b78a594ac046fd7d4b74ba49782);
+            
+        
+
+        circle_marker_ae565c7d8e482957404a1200d36af467.bindPopup(popup_4de5880e91260f734dc4dda1e3dd77ff)
+        ;
+
+        
+    
+    
+            circle_marker_ae565c7d8e482957404a1200d36af467.bindTooltip(
+                `<div>
+                     Severity: 4<br>Accidents: 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_9969e321f00348c36c1fb3df55fc3d83 = L.circleMarker(
+                [37.4316, -78.6569],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.04, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_1c5555110956d58beec9dc3e5252af05 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9b727d3a649513c1b2db94d90bf86858 = $(`<div id="html_9b727d3a649513c1b2db94d90bf86858" style="width: 100.0%; height: 100.0%;">State: Virginia<br>Severity: 1<br>Accidents: 4</div>`)[0];
+                popup_1c5555110956d58beec9dc3e5252af05.setContent(html_9b727d3a649513c1b2db94d90bf86858);
+            
+        
+
+        circle_marker_9969e321f00348c36c1fb3df55fc3d83.bindPopup(popup_1c5555110956d58beec9dc3e5252af05)
+        ;
+
+        
+    
+    
+            circle_marker_9969e321f00348c36c1fb3df55fc3d83.bindTooltip(
+                `<div>
+                     Severity: 1<br>Accidents: 4
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_42e0a0b0e997b271ec45257e13baec69 = L.circleMarker(
+                [37.4316, -78.6569],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.620000000000001, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_d160fee77b4014213f4da7362f3513e3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_832276fe3d5fda1c601f322bee9a086b = $(`<div id="html_832276fe3d5fda1c601f322bee9a086b" style="width: 100.0%; height: 100.0%;">State: Virginia<br>Severity: 2<br>Accidents: 462</div>`)[0];
+                popup_d160fee77b4014213f4da7362f3513e3.setContent(html_832276fe3d5fda1c601f322bee9a086b);
+            
+        
+
+        circle_marker_42e0a0b0e997b271ec45257e13baec69.bindPopup(popup_d160fee77b4014213f4da7362f3513e3)
+        ;
+
+        
+    
+    
+            circle_marker_42e0a0b0e997b271ec45257e13baec69.bindTooltip(
+                `<div>
+                     Severity: 2<br>Accidents: 462
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_714d29dd9b329e54d00f0a42d02e7083 = L.circleMarker(
+                [37.4316, -78.6569],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.08, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_dd412e8396dc6126f4f1cfbe0f4c927d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8979e4db3e73d3338af6dcb3e27747e4 = $(`<div id="html_8979e4db3e73d3338af6dcb3e27747e4" style="width: 100.0%; height: 100.0%;">State: Virginia<br>Severity: 3<br>Accidents: 8</div>`)[0];
+                popup_dd412e8396dc6126f4f1cfbe0f4c927d.setContent(html_8979e4db3e73d3338af6dcb3e27747e4);
+            
+        
+
+        circle_marker_714d29dd9b329e54d00f0a42d02e7083.bindPopup(popup_dd412e8396dc6126f4f1cfbe0f4c927d)
+        ;
+
+        
+    
+    
+            circle_marker_714d29dd9b329e54d00f0a42d02e7083.bindTooltip(
+                `<div>
+                     Severity: 3<br>Accidents: 8
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_511207c31488d86e245ccedec5ba23fb = L.circleMarker(
+                [37.4316, -78.6569],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.41, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_462c8e8e268b48ceef4249fd0975c22f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6e6913f9a912a8ef0b6e06be2d6b0f47 = $(`<div id="html_6e6913f9a912a8ef0b6e06be2d6b0f47" style="width: 100.0%; height: 100.0%;">State: Virginia<br>Severity: 4<br>Accidents: 41</div>`)[0];
+                popup_462c8e8e268b48ceef4249fd0975c22f.setContent(html_6e6913f9a912a8ef0b6e06be2d6b0f47);
+            
+        
+
+        circle_marker_511207c31488d86e245ccedec5ba23fb.bindPopup(popup_462c8e8e268b48ceef4249fd0975c22f)
+        ;
+
+        
+    
+    
+            circle_marker_511207c31488d86e245ccedec5ba23fb.bindTooltip(
+                `<div>
+                     Severity: 4<br>Accidents: 41
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_948168b03a738e31f1936a033ce57e93 = L.circleMarker(
+                [47.7511, -120.7401],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.02, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_f5c820ea0d0946dc9f39182eb38bacd5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c2a8fdda6312ce338fa15ce8a022f662 = $(`<div id="html_c2a8fdda6312ce338fa15ce8a022f662" style="width: 100.0%; height: 100.0%;">State: Washington<br>Severity: 1<br>Accidents: 2</div>`)[0];
+                popup_f5c820ea0d0946dc9f39182eb38bacd5.setContent(html_c2a8fdda6312ce338fa15ce8a022f662);
+            
+        
+
+        circle_marker_948168b03a738e31f1936a033ce57e93.bindPopup(popup_f5c820ea0d0946dc9f39182eb38bacd5)
+        ;
+
+        
+    
+    
+            circle_marker_948168b03a738e31f1936a033ce57e93.bindTooltip(
+                `<div>
+                     Severity: 1<br>Accidents: 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_4c2ba7d8e1ba6944dfbe4c5f4a120075 = L.circleMarker(
+                [47.7511, -120.7401],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.96, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_3675a149a66d0be0846165e48b5d0521 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3a2b8559b18d869eb6e25e08e0180ece = $(`<div id="html_3a2b8559b18d869eb6e25e08e0180ece" style="width: 100.0%; height: 100.0%;">State: Washington<br>Severity: 2<br>Accidents: 96</div>`)[0];
+                popup_3675a149a66d0be0846165e48b5d0521.setContent(html_3a2b8559b18d869eb6e25e08e0180ece);
+            
+        
+
+        circle_marker_4c2ba7d8e1ba6944dfbe4c5f4a120075.bindPopup(popup_3675a149a66d0be0846165e48b5d0521)
+        ;
+
+        
+    
+    
+            circle_marker_4c2ba7d8e1ba6944dfbe4c5f4a120075.bindTooltip(
+                `<div>
+                     Severity: 2<br>Accidents: 96
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_6064c02f08c1e7ab5185b7da030ab27c = L.circleMarker(
+                [47.7511, -120.7401],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.05, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_79180e134ab3cdcf1d0d78dfb68befb8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_83283ab1ce91e77ac411c80ba99d050f = $(`<div id="html_83283ab1ce91e77ac411c80ba99d050f" style="width: 100.0%; height: 100.0%;">State: Washington<br>Severity: 3<br>Accidents: 5</div>`)[0];
+                popup_79180e134ab3cdcf1d0d78dfb68befb8.setContent(html_83283ab1ce91e77ac411c80ba99d050f);
+            
+        
+
+        circle_marker_6064c02f08c1e7ab5185b7da030ab27c.bindPopup(popup_79180e134ab3cdcf1d0d78dfb68befb8)
+        ;
+
+        
+    
+    
+            circle_marker_6064c02f08c1e7ab5185b7da030ab27c.bindTooltip(
+                `<div>
+                     Severity: 3<br>Accidents: 5
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_9ffe4fda392a64edfe343891578a6d82 = L.circleMarker(
+                [47.7511, -120.7401],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.08, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_6876d47e55d4e0213be2974cf077295a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8651d58c5c0e7bf63fca9f80cc6c5cf0 = $(`<div id="html_8651d58c5c0e7bf63fca9f80cc6c5cf0" style="width: 100.0%; height: 100.0%;">State: Washington<br>Severity: 4<br>Accidents: 8</div>`)[0];
+                popup_6876d47e55d4e0213be2974cf077295a.setContent(html_8651d58c5c0e7bf63fca9f80cc6c5cf0);
+            
+        
+
+        circle_marker_9ffe4fda392a64edfe343891578a6d82.bindPopup(popup_6876d47e55d4e0213be2974cf077295a)
+        ;
+
+        
+    
+    
+            circle_marker_9ffe4fda392a64edfe343891578a6d82.bindTooltip(
+                `<div>
+                     Severity: 4<br>Accidents: 8
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f40a71cc83ee27641fde1ceb17011aa1 = L.circleMarker(
+                [43.7844, -88.7879],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.16, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_46b98b59b1330d3520d265a8e96a6dcd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b7357a9cd41f347f4872041aabb6c586 = $(`<div id="html_b7357a9cd41f347f4872041aabb6c586" style="width: 100.0%; height: 100.0%;">State: Wisconsin<br>Severity: 2<br>Accidents: 16</div>`)[0];
+                popup_46b98b59b1330d3520d265a8e96a6dcd.setContent(html_b7357a9cd41f347f4872041aabb6c586);
+            
+        
+
+        circle_marker_f40a71cc83ee27641fde1ceb17011aa1.bindPopup(popup_46b98b59b1330d3520d265a8e96a6dcd)
+        ;
+
+        
+    
+    
+            circle_marker_f40a71cc83ee27641fde1ceb17011aa1.bindTooltip(
+                `<div>
+                     Severity: 2<br>Accidents: 16
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_cea69f668e82a3280028af4027f2ab82 = L.circleMarker(
+                [43.7844, -88.7879],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.05, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_6458516d4834429798922d4cff69ad9f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_81af70e32c878e5f4d1cb1a9e719e004 = $(`<div id="html_81af70e32c878e5f4d1cb1a9e719e004" style="width: 100.0%; height: 100.0%;">State: Wisconsin<br>Severity: 4<br>Accidents: 5</div>`)[0];
+                popup_6458516d4834429798922d4cff69ad9f.setContent(html_81af70e32c878e5f4d1cb1a9e719e004);
+            
+        
+
+        circle_marker_cea69f668e82a3280028af4027f2ab82.bindPopup(popup_6458516d4834429798922d4cff69ad9f)
+        ;
+
+        
+    
+    
+            circle_marker_cea69f668e82a3280028af4027f2ab82.bindTooltip(
+                `<div>
+                     Severity: 4<br>Accidents: 5
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_dc42b15a78af4553f7dea58e57d85e04 = L.circleMarker(
+                [38.5976, -80.4549],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.36, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_7cb8c853906dafbbf9bfddc56d264ff9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_08040ca23cce58471dd6f82b60ac95af = $(`<div id="html_08040ca23cce58471dd6f82b60ac95af" style="width: 100.0%; height: 100.0%;">State: West Virginia<br>Severity: 2<br>Accidents: 36</div>`)[0];
+                popup_7cb8c853906dafbbf9bfddc56d264ff9.setContent(html_08040ca23cce58471dd6f82b60ac95af);
+            
+        
+
+        circle_marker_dc42b15a78af4553f7dea58e57d85e04.bindPopup(popup_7cb8c853906dafbbf9bfddc56d264ff9)
+        ;
+
+        
+    
+    
+            circle_marker_dc42b15a78af4553f7dea58e57d85e04.bindTooltip(
+                `<div>
+                     Severity: 2<br>Accidents: 36
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_91d9d538e0b9bd14e0e78c5cfb7deaf9 = L.circleMarker(
+                [43.0759, -107.2903],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.05, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_d0231aae0b363150eb4d26b95b77e15e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0455de65bcaf80361d9a22d6768ba8ec = $(`<div id="html_0455de65bcaf80361d9a22d6768ba8ec" style="width: 100.0%; height: 100.0%;">State: Wyoming<br>Severity: 2<br>Accidents: 5</div>`)[0];
+                popup_d0231aae0b363150eb4d26b95b77e15e.setContent(html_0455de65bcaf80361d9a22d6768ba8ec);
+            
+        
+
+        circle_marker_91d9d538e0b9bd14e0e78c5cfb7deaf9.bindPopup(popup_d0231aae0b363150eb4d26b95b77e15e)
+        ;
+
+        
+    
+    
+            circle_marker_91d9d538e0b9bd14e0e78c5cfb7deaf9.bindTooltip(
+                `<div>
+                     Severity: 2<br>Accidents: 5
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_8414dd8999d2222c666af20d63e0caa0 = L.circleMarker(
+                [43.0759, -107.2903],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.02, "stroke": true, "weight": 3}
+            ).addTo(map_985aeef1096792734873c14607f20c74);
+        
+    
+        var popup_d577b2c8cca01e56f097b2a83e204f69 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9fadec1136ddb516fb36db82427f5d0a = $(`<div id="html_9fadec1136ddb516fb36db82427f5d0a" style="width: 100.0%; height: 100.0%;">State: Wyoming<br>Severity: 4<br>Accidents: 2</div>`)[0];
+                popup_d577b2c8cca01e56f097b2a83e204f69.setContent(html_9fadec1136ddb516fb36db82427f5d0a);
+            
+        
+
+        circle_marker_8414dd8999d2222c666af20d63e0caa0.bindPopup(popup_d577b2c8cca01e56f097b2a83e204f69)
+        ;
+
+        
+    
+    
+            circle_marker_8414dd8999d2222c666af20d63e0caa0.bindTooltip(
+                `<div>
+                     Severity: 4<br>Accidents: 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
